@@ -1,0 +1,361 @@
+RefCode ;FlowerSpecies
+B001;Coriandrum sativum
+B001;Helianthus annuus
+B001;Pimpinella anisum
+B001;Solanum melongena
+B001;Anethum graveolens
+B001;Cucurbita pepo
+B001;Cuminum cyminum
+B001;Ocimum basilicum
+B002;Matricaria chamomilla
+B002;Diplotaxis catholica
+B002;Medicago sp.
+B002;Vicia sativa
+B002;Lamium sp.
+B002;Salvia verbenaca
+B002;Nigella damascena
+B003;Borago officinalis
+B003;Calendula arvensis
+B003;Coriandrum sativum 
+B003;Diplotaxis erucoides
+B003;Echium plantagineum
+B003;Medicago sativa
+B003;Nigella damascena
+B003;Salvia pratensis
+B003;Silene vulgaris
+B003;Sinapis alba
+B003;Vicia sativa
+B003;Borago officinalis
+B003;Calendula arvensis
+B003;Coriandrum sativum
+B003;Medicago sativa
+B003;Sinapis alba
+B003;Diplotaxis catholica
+B004;Borago officinalis
+B004;Calendula arvensis
+B004;Coriandrum sativum
+B004;Salvia pratensis
+B004;Melilotus officinalis
+B004;Diplotaxis erucoides
+B004;Echium plantagineum
+B004;Silene vulgaris
+B004;Vicia sativa
+B004;Nigella damascena
+B004;Sinapis alba
+B004;Medicago sativa
+B005;Crataegus monogyna
+B005;Carpinus betulus (L.)
+B005;Alnus glutinosa (L.)
+B006;Achillea millefolium
+B006;Andropogon gerardii
+B006;Anemone canadensis
+B006;Baptisia alba
+B006;Coreopsis lanceolata
+B006;Echinacea purpureum
+B006;Elymus canadensis
+B006;Eryngium yuccifolium
+B006;Euthamia graminifolia
+B006;Monarda fistulosa
+B006;Monarda punctata
+B006;Oenothera biennis
+B006;Penstemon digitalis
+B006;Penstemon hirsutus
+B006;Pycnanthemum virginianum
+B006;Ratibida pinnata
+B006;Rudbeckia hirta
+B006;Rudbeckia triloba
+B006;Schizachyrium scoparium
+B006;Scrophularia marilandica
+B006;Solidago nemoralis
+B006;Solidago rigida
+B006;Solidago speciosa
+B006;Sorghastrum nutans
+B006;Symphyotrichum laeve
+B006;Symphyotrichum novae-angliae
+B006;Symphyotrichum urophyllum
+B006;Tradescantia ohiensis
+B006;Verbena stricta
+B006;Zizia aurea
+B006;Lupinus polyphylus
+B006;Sidalcea campestris
+B006;Collinsia grandiflora
+B006;Gilia capitate
+B006;Solidago canadensis
+B006;Phacelia heterophylla
+B006;Madia elegans
+B006;Symphyotrichum subspicatum
+B006;Clarkia williamsonii
+B006;Eschscholtzia californica
+B006;Grindelia camporum
+B006;Lupinus densiflorus
+B006;Lupinus succulentus
+B006;Phacelia californica
+B006;Phacelia ciliata
+B006;Phacelia tanacetifolia
+B006;Trichostema lanceolatum
+B006;Trifolium fulcatum
+B006;Monardella villosa
+B007;Angelica sylvestris
+B007;Crepis vesicaria
+B007;Digitalis purpurea
+B007;Geranium dissectum
+B007;Geranium robertianum
+B007;Sonchus asper
+B007;Stachys sylvatica
+B007;Trifolium repens
+B007;Viccia cracca
+B008;Sphaeralcea obtusiloba (Hook.) G. Don
+B008;Baccharis linearis (Ruiz & Pav.) Pers.
+B008;Flourensia thurifera (Molina) DC.
+B008;Lycium chilense Miers ex Bertero
+B008;Eryngium paniculatum Cav. & Dombey ex F. Delaroche
+B008;Encelia canescens Lam.
+B008;Erigeron luxurians (Skottsb.) Solbrig
+B008;Lepechinia salviae (Lindl.) Epling
+B009;Achillea millefolium
+B009;Andropogon gerardii
+B009;Anemone canadensis
+B009;Baptisia alba
+B009;Coreopsis lanceolata
+B009;Echinacea purpureum
+B009;Elymus canadensis
+B009;Eryngium yuccifolium
+B009;Euthamia graminifolia
+B009;Monarda fistulosa
+B009;Monarda punctata 
+B009;Oenothera biennis
+B009;Penstemon digitalis
+B009;Penstemon hirsutus
+B009;Pycnanthemum virginianum
+B009;Ratibida pinnata
+B009;Rudbeckia hirta
+B009;Rudbeckia triloba
+B009;Schizachyrium scoparium
+B009;Scrophularia marilandica
+B009;Solidago nemoralis
+B009;Forb Solidago rigida
+B009;Solidago speciosa
+B009;Sorghastrum nutans
+B009;Symphyotrichum laeve
+B009;Symphyotrichum novae-angliae
+B009;Symphyotrichum urophyllum
+B009;Tradescantia ohiensis
+B009;Verbena stricta
+B009;Zizia aurea
+B010;Phacelia tanacetifolia
+B011;Ammi visnaga
+B011;Asclepia fascicularis
+B011;Atriplex triangularis
+B011;Brassica sp.
+B011;Centaurea solstitialis
+B011;Convolvulus arvensis
+B011;Daucus carota
+B011;Eriogonum fasciculatum
+B011;Foeniculum vulgare
+B011;Grindelia camporum
+B011;Heteromeles arbutifolia
+B011;Lactuca serriola
+B011;Lotus corniculatus
+B011;Picris echioides
+B011;Rosa californica
+B011;Sambucus mexicana
+B012;Anchusa arvensis
+B012;Anethum graveolens
+B012;Anthemis tinctoria
+B012;Camelina sativa
+B012;Campanula patula
+B012;Campanula rapunculoides
+B012;Centaurea scabiosa
+B012;Centaureus cyanus
+B012;Cichorium intybus
+B012;Crepis biennis
+B012;Daucus carota
+B012;Echium vulgare
+B012;Hypochaeris radicata
+B012;Leontodon hispidus
+B012;Linum usitatissimum
+B012;Lotus corniculatus
+B012;Melilotus albus
+B012;Onobrychis viciifolia
+B012;Papaver rhoeas
+B012;Phacelia tanacetifolia
+B012;Picris hieracioides
+B012;Reseda lutea
+B012;Sinapis arvensis
+B012;Stachys annua
+B012;Trifolium hybridum
+B012;Trifolium incarnatum
+B012;Trifolium pratense
+B012;Fagopyrum esculentum
+B012;Lamium purpureum
+B012;Vicia sativa
+B013;Eriogonum fasciculatum foliolosum
+B013;Ceanothus griseus
+B013;Rhamnus californica tomentella
+B013;Baccharis pilularis
+B013;Sambucus nigra
+B013;Heteromeles arbutifolia
+B014;NA
+B015;Zizia aurea
+B015;Penstemon digitalis
+B015;Coreopsis lanceolata
+B015;Rudbeckia hirta
+B015;Asclepias incarnata
+B015;Asclepias tuberosa
+B015;Monarda fistulosa
+B015;Eupatorium maculatum
+B015;Eupatorium perfoliatum
+B015;Lobelia siphilitica
+B015;Ratibida pinnata
+B015;Silphium perfoliatum
+B015;Solidago rigida
+B015;Symphyotrichum novae-angliae
+B015;Symphyotrichum laeve
+B015;Elymus canadensis
+B015;Sorghastrum nutans
+B015;Andropogon gerardii
+B016;Ceanothus spp.
+B016;Rhamnus californica
+B016;Eriogonum fasciculatum
+B016;Heteromeles arbutifolia
+B016;Sambucus mexicana
+B016;Baccharis pilularis
+B017;NA
+B018;Borago officinalis
+B018;Calendula arvensis
+B018;Coriandrum sativum
+B018;Salvia pratensis
+B018;Melilotus officinalis
+B018;Diplotaxis erucoides
+B018;Echium plantagineum
+B018;Silene vulgaris
+B018;Vicia sativa
+B018;Nigella damascena
+B018;Sinapis alba
+B018;Medicago sativa
+B019;NA
+B020;Calendula officinalis L.
+B020;Coriandrum sativum
+B020;Nigella gallica L.
+B020;Lobularia marítima L.
+B020;Borago officinalis
+B020;Diplotaxis virgata Cav.
+B020;Diplotaxis catholica
+B020;Medicago sativa
+B020;Salvia verbenaca
+B020;Silene vulgaris
+B020;Vicia sativa
+B021;Eryngium paniculatum Cav. & Dombey ex F. Delaroche
+B021;Baccharis linearis (Ruiz & Pav.) Pers.
+B021;Encelia canescens Lam.
+B021;Erigeron luxurians (Skottsb.) Solbrig
+B021;Eupatorium salvium Colla
+B021;Flourensia thurifera (Molina) DC.
+B021;Haplopappus integerrimus (Hook. & Arn.) H.M. Hall
+B021;Senna cumingii (Hook. & Arn.) H.S. Irwin & Barneby
+B021;Lepechinia salviae (Lindl.) Epling
+B021;Sphaeralcea obtusiloba (Hook.) G. Don
+B021;Lycium chilense Miers ex Bertero
+B021;Alonsoa meridionalis
+B021;Baccharis romboidalis
+B021;Eryngium paniculatum
+B021;Haploapappus macrocephalus
+B022;Medicago sativa
+B022;Trifolium hybridum
+B022;Lotus corniculatus
+B022;Trifolium incarnatum
+B022;Onobrychis viciifolia
+B022;Rudbeckia hirta
+B022;Astragalus canadensis
+B022;Asclepias syriaca
+B022;Oenothera biennis
+B022;Heliopsis helianthoides
+B022;Penstemon digitalis
+B022;Verbena stricta
+B022;Veronia fasciculata
+B022;Helianthus maxmilliani
+B022;Aster novae-angliae
+B022;Medicago sativa
+B022;Trifolium hybridum
+B022;Lotus corniculatus
+B022;Trifolium incarnatum
+B022;Trifolium repens
+B022;Trifolium pratense
+B022;Onobrychis viciifolia
+B022;Melilotus officinalis
+B022;Verbena stricta
+B022;Helianthus maxmilliani
+B022;Chamaecrista fasciculata
+B022;Phacelia angelia
+B022;Solidago speciosa
+B022;Aster azureus
+B022;Aster laevis
+B022;Elymus canadensis
+B022;Sorghastrum nutans
+B022;Schizachyrium scoparium
+B023;Helianthus annuus
+B023;Coriandrum sativum
+B023;Medicago sativa
+B024;Alliaria petolata
+B024;Anthriscus sylvestris
+B024;Brassica napus
+B024;Capsellabursa pastoris
+B024;Cardamine pratensis
+B024;Cerastium arvense
+B024;Cerastium fontanum
+B024;Crataegus monogyna
+B024;Euphorbia helioscopa
+B024;Fumaria muralis
+B024;Fumaria officinalis
+B024;Fumaria sp.
+B024;Geranium robertianum
+B024;Labium hybridum
+B024;Matricaria discoidea
+B024;Medicago lupulina
+B024;Papaver sp.
+B024;Poa annua
+B024;Senecio vulgare
+B024;Sinapis arvensis
+B024;Sisymbrium officinale
+B024;Sonchus oleraceus
+B024;Taraxacum officinale
+B024;Ulex europaeus
+B024;Veronica persica
+B024;Vicia sepium
+B024;Viola tricolor
+B024;Anthriscus sylvestris
+B024;Arum maculatum
+B024;Bellis perennis
+B024;Cardamine pratensis
+B024;Cerastium fontanum
+B024;Crataegus monogyna
+B024;Ficaria verna
+B024;Hyacinthoides hispanica
+B024;Hyacinthoides sp.
+B024;Malus pumila
+B024;Malus sp.
+B024;Myosotis scorpioides
+B024;Ranunculus repens
+B024;Sambucus nigra
+B024;Smyrnium olosatrum
+B024;Taraxacum officinale
+B024;Viburnum davidii
+B024;Viburnum opulus
+B024;Vicia sativa
+B024;Vicia sepium
+B025;Penstemon hirsutus
+B025;Potentilla fruticosa
+B025;Monarda fistulosa
+B025;Veronicastrum virginicum
+B025;Solidago juncea
+B025;Lobelia siphilitica
+B025;Silphium terebinthinaceum
+B025;Agastache nepetoides
+B025;Aster laevis
+B025;Schizachyrium scoparium
+B026;Coccinia grandis (L.) Voigt
+B026;Tridax procumbens
+B026;Ruellia tuberosa Linn.
+B026;Euphorbia heterophylla L.
+B026;Cleome rutidosperma
+;
