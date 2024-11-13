@@ -1,6 +1,6 @@
 # BeeFlow
 
-Supplement to chapter 1 of the Ph.D thesis "The effects of floral plantings on the crop pollination services". Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
+Supplement to chapter 1 of the Ph.D. thesis "The effects of floral plantings on the crop pollination services". Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
 [Ecological Synthesis Lab](https://marcomellolab.wordpress.com) (SintECO).
 
