@@ -76,7 +76,7 @@ ggplot(top10_especies, aes(x = 2, y = Percentual, fill = FlowerSpecies)) +
   theme(legend.position = "right",  
         legend.text = element_text(size = 16, face = "italic"), 
         legend.title = element_text(size = 16)) +
-  labs(fill = "Top 10 flower species",
+  labs(fill = "Top 10 plant species",
        title = "") +
   geom_text(aes(label = Frequencia), 
             position = position_stack(vjust = 0.5), size = 6, color = "black") +  
