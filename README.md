@@ -140,11 +140,25 @@ The data and scripts provided here aim at making our study fully reproducible. Y
 
     b. publication_year.png -\> publication year of the studies.
     
-4.  Code (folder)
+3.  Code (folder)
 
     a.  Journals.R -\> main script formatted as a tutorial to help you reproduce the figure.
 
     b. publication_year -\> main script formatted as a tutorial to help you reproduce the figure.
+
+### **Litsearch (folder)**
+
+1.  Data (folder)
+
+    a.  records_scopus.csv -\> data frame with the list of articles imported from Scopus.
+
+    b.  wos.csv -\> data frame with the list of articles imported from Web of Science.
+
+    c. scielo.csv -\> data frame with the list of articles imported from Scielo.
+    
+2.  Code (folder)
+
+    a.  doc_keywords.R -\> main script formatted as a tutorial to help you deduplicate the list of articles imported from the databases using the litsearch package.  
         
 ## Instructions
 
