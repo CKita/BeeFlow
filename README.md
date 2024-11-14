@@ -124,7 +124,7 @@ The data and scripts provided here aim at making our study fully reproducible. Y
     
 2.  Code (folder)
 
-    a.  doc_keywords.R -\> main script formatted as a tutorial to help you deduplicate the list of articles imported from the databases using the litsearch package.
+    a.  doc_keywords.R -\> main script formatted as a tutorial to help you deduplicate the list of articles imported from the databases using the litsearchr package.
 
 ### **Sites (folder)**
 
