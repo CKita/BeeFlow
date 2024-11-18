@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### Sara D. Leonhardt & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -29,9 +29,9 @@ if(!require(ggplot2)){
   library(ggplot2)
 }
 
-if(!require(sf)){
-  install.packages("sf")
-  library(sf)
+if(!require(ggspatial)){
+  install.packages("ggspatial")
+  library(ggspatial)
 }
 
 if(!require(maps)){
@@ -44,11 +44,15 @@ if(!require(rnaturalearth)){
   library(rnaturalearth)
 }
 
-if(!require(ggspatial)){
-  install.packages("ggspatial")
-  library(ggspatial)
+if(!require(rnaturalearthdata)){
+  install.packages("rnaturalearthdata")
+  library(rnaturalearthdata)
 }
 
+if(!require(sf)){
+  install.packages("sf")
+  library(sf)
+}
 
 # First, let's import and check our data set
 sites <- read.csv("../Data/sites.csv", h= T, sep = ",")
@@ -73,7 +77,8 @@ world_map <- st_as_sf(map("world", plot = FALSE, fill = TRUE))
 sample_points <- sites_short
 
 # Convert sample points to simple features
-sample_points_sf <- st_as_sf(sample_points, coords = c("Longitude", "Latitude"), crs = 4326)
+sample_points_sf <- st_as_sf(sample_points, coords = c("Longitude", "Latitude"),
+                             crs = 4326)
 
 
 #Plot the base map.
@@ -90,7 +95,8 @@ g1 <- ggplot(data = world_map) +
     axis.text = element_text(size = 16)) +
 
 #Plot the sites
-  geom_point(data = sites_short, aes(x = Longitude, y = Latitude), 
+  geom_point(data = sites_short, aes(x = Longitude, y = Latitude,
+                                     colour = "red"), 
              alpha = 0.5, size = 2) +
  
   #Add a scale bar
@@ -144,7 +150,7 @@ world_data <- left_join(world, study_data, by = c("name" = "country"))
 # Plot the map
 g2 <- ggplot(data = world_data) +
   geom_sf(aes(fill = studies), color = "white") +
-  scale_fill_gradient(low = "#88d95f", high = "#3f801e", 
+  scale_fill_gradient(low = "blue", high = "red", 
                       na.value = "grey80", name = "Number of studies") +
   coord_sf(xlim = c(-180, 180), ylim = c(-58, 90), expand = FALSE) +
   theme_minimal() +

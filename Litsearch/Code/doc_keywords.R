@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### Sara D. Leonhardt & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -24,6 +24,11 @@ rm(list= ls())
 
 #Load or install the required packages.
 
+if(!require(devtools)){
+  install.packages("devtools")
+  library(devtools)
+}
+
 if(!require(dplyr)){
   install.packages("dplyr")
   library(dplyr)
@@ -44,24 +49,24 @@ if(!require(igraph)){
   library(igraph)
 }
 
+if(!require(litsearchr)){
+  remotes::install_github("elizagrames/litsearchr", ref="main")
+  library(litsearchr)
+}
+
 if(!require(readr)){
   install.packages("readr")
   library(readr)
 }
 
-if(!require(devtools)){
-  install.packages("devtools")
-  library(devtools)
+if(!require(remotes)){
+  install.packages("remotes")
+  library(remotes)
 }
 
 if(!require(revtools)){
   install.packages("revtools")
   library(revtools)
-}
-
-if(!require(remotes)){
-  install.packages("remotes")
-  library(remotes)
 }
 
 if(!require(stringi)){
@@ -74,16 +79,11 @@ if(!require(stringr)){
   library(stringr)
 }
 
-if(!require(litsearchr)){
-  remotes::install_github("elizagrames/litsearchr", ref="main")
-  library(litsearchr)
-}
-
-1############################ DATABASES #########################################
+############################ DATABASES #########################################
 #First, let's import and check the data.
 
 #records from Scopus exported as "CSV"
-scopus <- read.csv("records_scopus.csv", header = T, sep = ",")
+scopus <- read.csv("../Data/scopus.csv", header = T, sep = ",")
 
 #select the columns "Authors", "Title", and "Abstract"
 scopus <- subset(scopus, select = c(Authors, Title, Abstract))
@@ -91,7 +91,7 @@ str(scopus)
 write.csv(scopus, "scopus_checked.csv")
 
 #records from Web of Science
-wos <- read.csv("wos.csv", header = T, sep = ",")
+wos <- read.csv("../Data/wos.csv", header = T, sep = ",")
 write.csv(wos, "records_wos.csv")
 
 #select the columns "Authors", "Title", and "Abstract"
@@ -101,7 +101,7 @@ str(wos)
 write.csv(wos, "wos_checked.csv")
 
 #records from Scielo 
-scielo <- read.csv("scielo.csv", header = T, sep = ",")
+scielo <- read.csv("../Data/scielo.csv", header = T, sep = ",")
 
 #select the columns "AU", "TI", and "AB"
 scielo <- subset(scielo, select = c(AU, TI, AB))
@@ -124,7 +124,7 @@ dedupli<- litsearchr::remove_duplicates(records123,
                                         field= "title",
                                         method="exact")
 
-write.csv(dedupli, "duplicate_records_removed.csv") #it's also important 
+write.csv(dedupli, "../Data/duplicate_records_removed.csv") #it's also important 
                                                     #to check them manually
 
 

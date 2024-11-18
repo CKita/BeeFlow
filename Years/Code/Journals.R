@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### Sara D. Leonhardt & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -24,14 +24,14 @@ getwd()
 rm(list= ls())
 
 #Load or install the required packages
-if(!require(ggplot2)){
-  install.packages("ggplot2")
-  library(ggplot2)
-}
-
 if(!require(dplyr)){
   install.packages("dplyr")
   library(dplyr)
+}
+
+if(!require(ggplot2)){
+  install.packages("ggplot2")
+  library(ggplot2)
 }
 
 if(!require(stringr)){

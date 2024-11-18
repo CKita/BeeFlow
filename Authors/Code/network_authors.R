@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### Sara D. Leonhardt & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -24,9 +24,10 @@ getwd()
 rm(list= ls())
 
 #Load or install the required packages
-if(!require(igraph)){
-  install.packages("igraph")
-  library(igraph)
+
+if(!require(dplyr)){
+  install.packages("dplyr")
+  library(dplyr)
 }
 
 if(!require(ggraph)){
@@ -44,14 +45,14 @@ if(!require(ggplot2)){
   library(ggplot2)
 }
 
-if(!require(tibble)){
-  install.packages("tibble")
-  library(tibble)
+if(!require(ggrepel)){
+  install.packages("ggrepel")
+  library(ggrepel)
 }
 
-if(!require(dplyr)){
-  install.packages("dplyr")
-  library(dplyr)
+if(!require(igraph)){
+  install.packages("igraph")
+  library(igraph)
 }
 
 if(!require(randomcoloR)){
@@ -59,14 +60,14 @@ if(!require(randomcoloR)){
   library(randomcoloR)
 }
 
-if(!require(ggrepel)){
-  install.packages("ggrepel")
-  library(ggrepel)
+if(!require(tibble)){
+  install.packages("tibble")
+  library(tibble)
 }
 
-########### TOP 10 PLANT SPECIES CULTIVATED IN THE FLORAL PLANTINGS ############
+########### TOP 10 PLANT SPECIES CULTIVATED IN FLORAL PLANTINGS ################
 
-# First, let's see our data set
+# First, let's check the data set
 
 df <- read.csv("../Data/network_authors.csv", h= T, sep = ";")
 class(df)
@@ -96,6 +97,9 @@ coauthor_pairs <- do.call(rbind, lapply(coauthor_pairs_list, function(x) matrix(
 # Create a graph
 g <- graph_from_edgelist(coauthor_pairs, directed = FALSE)
 
+# Check the graph
+g
+
 # Detect the modules
 modules <- cluster_louvain(g)
 membership <- membership(modules)
@@ -103,16 +107,16 @@ membership <- membership(modules)
 # Define the color palette
 palette <- distinctColorPalette(max(membership))
 
-# Give colors to the nodes
+# Assign colors to the nodes
 node_color <- palette[membership]
 
-# Define the node size
+# Define node size
 node_size <- rep(16, vcount(g))
 
 # Choose the network layout
 layout <- layout_with_fr(g, niter = 1300)
 
-# Prepare the data of the nodes
+# Prepare node data 
 node_data <- tibble(
   x = layout[, 1],
   y = layout[, 2],
@@ -120,7 +124,7 @@ node_data <- tibble(
   module = membership
 )
 
-# Prepare the data of the edges
+# Prepare edge data 
 edge_data <- as_tibble(as_edgelist(g)) %>%
   rename(from = V1, to = V2) %>%
   left_join(node_data %>% select(node, x, y), by = c("from" = "node")) %>%
@@ -138,7 +142,7 @@ circle_data <- node_data %>%
   ) %>%
   arrange(desc(radius))
 
-# Check and adjust overlap of circles
+# Check and adjust circle overlap
 # If necessary, adjust the multiplier factor for the radius
 
 # Visualize the network
@@ -170,9 +174,3 @@ ggplot() +
 dev.off()
 
 ############################## THE END #########################################
-
-
-
-
-
-
