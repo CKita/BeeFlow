@@ -61,7 +61,7 @@ g1 <- ggplot(journal_freq, aes(x = str_wrap(Journal, width = 20),
                                y = Frequency)) +
   geom_bar(stat = "identity", fill = color) +
   labs(title = "",
-       x = "Crop",
+       x = "Journal",
        y = "Number of studies") +
   theme_minimal() +
   theme(panel.grid.major = element_blank(),        
