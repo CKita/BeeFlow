@@ -16,7 +16,37 @@ Originally published on November 12th, 2024.
 
 Run in R version 4.4.2 (2024-10-31) -- "Pile of Leaves".
 
-Disclaimer: You may freely use the software and data provided here for commercial or non-commercial purposes at your own risk. We assume no responsibility or liability for the use of this material, convey no license or title under any patent, copyright, or mask work right to the product. We reserve the right to make changes in the material without notification. We also make no representation or warranty that such application will be suitable for the specified use without further testing or modification. If this material helps you produce any academic work (paper, book, chapter, monograph, dissertation, thesis, report, poster, talk, keynote, lecture or similar), please acknowledge the authors and cite the source.
+## Disclaimer
+
+### Purpose
+
+This repository contains processed data, code, and additional information used in the analyses presented in the aforementioned manuscript. It is intended to provide transparency, reproducibility, and an educational resource for researchers interested in the methodologies described.
+
+### Accuracy of contents 
+
+While every effort has been made to ensure that the materials provided are accurate and consistent with the findings reported in the paper, the authors do not guarantee the completeness or correctness of the repository contents. Users are encouraged to validate results independently.
+
+### Usage and modifications
+
+The contents are shared under a XXX License <!--# Temos que escolher a licença no final -->. Users are free to use, modify, and distribute the code, data, and information in accordance with this license. The authors bear no responsibility for outcomes arising from the use or misuse of these materials.
+
+### Support and maintenance 
+
+This repository is provided "as is," without any commitment to ongoing maintenance or support. Questions or issues may be addressed through the GitHub Issues tab or a designated contact e-mail, but responses are not guaranteed.
+
+### Third-party dependencies 
+
+The repository may rely on third-party software or libraries. Users are responsible for ensuring compatibility and proper installation of these dependencies. The authors do not endorse or provide guarantees for any third-party software.
+
+### Ethical use 
+
+Users are expected to comply with all applicable ethical and legal standards when using this repository, especially regarding the handling of sensitive or proprietary data.
+
+### Citation
+
+If you use this repository in your work (software, paper, book, chapter, monograph, dissertation, thesis, report, poster, talk, keynote, lecture or similar), please cite the original paper and the DOI to this repository.
+
+By using this repository, you acknowledge and accept the terms of this disclaimer.
 
 ## Functionality
 
