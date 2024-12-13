@@ -194,6 +194,18 @@ The data and scripts provided here aim at making our study reproducible. You wil
 
     b.  publication_year -\> commented script to help reproduce the figure `publication_year.png`.
 
+### **Articles included in the review (file)**
+
+List of articles included in our review.
+
+### **Processed data (file)**
+
+Processed data used in our quantitative and qualitative analyses. 
+
+### **Supplementary text (file)**
+
+Supplementary text with information on the effect of floral plantings per crop type and figures related to the bibliometric map. 
+
 ## Instructions
 
 1.  Choose the analysis you want to reproduce and go to the respective folder;
