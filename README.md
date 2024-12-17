@@ -8,7 +8,7 @@ This manuscript is part of the Ph.D. thesis CA Kita, enrolled in the Graduate Sc
 
 [Ecological Synthesis Lab](https://marcomellolab.wordpress.com) (SintECO).
 
-Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, Sara D. Leonhardt & Marco A. R. Mello.
+Authors: [Cristina A. Kita](https://orcid.org/0000-0002-4079-2677), [Isabel Alves-dos-Santos](https://orcid.org/0000-0003-2352-1290), [Michael Hrncir](https://orcid.org/0000-0003-4931-3924), [Sara D. Leonhardt](https://orcid.org/0000-0002-8154-9569) & [Marco A. R. Mello](https://orcid.org/0000-0002-9098-9427).
 
 E-mail: [c.akemikita\@gmail.com](mailto:c.akemikita@gmail.com){.email}.
 
@@ -22,7 +22,7 @@ Run in R version 4.4.2 (2024-10-31) -- "Pile of Leaves".
 
 This repository contains processed data, code, and additional information used in the analyses presented in the aforementioned manuscript. It is intended to provide transparency, reproducibility, and an educational resource for researchers interested in the methodologies described.
 
-### Accuracy of contents 
+### Accuracy of contents
 
 While every effort has been made to ensure that the materials provided are accurate and consistent with the findings reported in the paper, the authors do not guarantee the completeness or correctness of the repository contents. Users are encouraged to validate results independently.
 
@@ -30,15 +30,15 @@ While every effort has been made to ensure that the materials provided are accur
 
 The contents are shared under a XXX License <!--# Temos que escolher a licença no final -->. Users are free to use, modify, and distribute the code, data, and information in accordance with this license. The authors bear no responsibility for outcomes arising from the use or misuse of these materials.
 
-### Support and maintenance 
+### Support and maintenance
 
 This repository is provided "as is," without any commitment to ongoing maintenance or support. Questions or issues may be addressed through the GitHub Issues tab or a designated contact e-mail, but responses are not guaranteed.
 
-### Third-party dependencies 
+### Third-party dependencies
 
 The repository may rely on third-party software or libraries. Users are responsible for ensuring compatibility and proper installation of these dependencies. The authors do not endorse or provide guarantees for any third-party software.
 
-### Ethical use 
+### Ethical use
 
 Users are expected to comply with all applicable ethical and legal standards when using this repository, especially regarding the handling of sensitive or proprietary data.
 
@@ -200,11 +200,11 @@ List of articles included in our review.
 
 ### **Processed data (file)**
 
-Processed data used in our quantitative and qualitative analyses. 
+Processed data used in our quantitative and qualitative analyses.
 
 ### **Supplementary text (file)**
 
-Supplementary text with information on the effect of floral plantings per crop type and figures related to the bibliometric map. 
+Supplementary text with information on the effect of floral plantings per crop type and figures related to the bibliometric map.
 
 ## Instructions
 
@@ -220,7 +220,7 @@ If you have any questions, corrections, or suggestions, please feel free to open
 
 ## Acknowledgments
 
-We are deeply grateful to the authors of all primary studies included in our systematic review, whose empirical work made our synthesis possible. Special thanks go to Astrid Kleinert and Renata Muylaert for their invaluable insight and advice, which helped us see the bigger picture and put CAK’s Ph.D. project in perspective. Last but not least, we thank the Stack Overflow community (<https://stackoverflow.com/>), where we solve most of our coding dilemmas.
+We are deeply grateful to the authors of all primary studies included in our systematic review, whose empirical work made our synthesis possible. Special thanks go to Astrid Kleinert and [Renata Muylaert](https://renatamuy.github.io) for their invaluable insight and advice, which helped us see the bigger picture and put CAK’s Ph.D. project in perspective. Last but not least, we thank the Stack Overflow community (<https://stackoverflow.com/>), where we solve most of our coding dilemmas.
 
 ## Funding
 
