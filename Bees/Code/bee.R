@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -76,7 +76,7 @@ g1 <- ggplot(df_speciesCount, aes(x = "", y = Frequency, fill = Species)) +
 
 g1
 
-#Export the pie chart as a PNG image.
+#Export the pie chart as PNG image.
 png("../Figure/withApis.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 g1
@@ -84,3 +84,4 @@ g1
 dev.off()
 
 ########################### THE END ############################################
+

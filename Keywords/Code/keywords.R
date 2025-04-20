@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -57,12 +57,12 @@ word_freq <- words %>%
   rename(word = Keywords, freq = n)
 
 
-# Ajust the image size and create the word cloud
+# Adjust the image size and create the word cloud
 png("../Figure/wordcloud.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
 
-# Create the word cloud using the basic palette
+# Criar a nuvem de palavras usando a paleta básica
 wordcloud(words = word_freq$word, 
           freq = word_freq$freq, 
           min.freq = 1,               

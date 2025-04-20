@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -24,18 +24,18 @@ getwd()
 rm(list= ls())
 
 #Load or install the required packages
+if(!require(ggplot2)){
+  install.packages("ggplot2")
+  library(ggplot2)
+}
 
 if(!require(dplyr)){
   install.packages("dplyr")
   library(dplyr)
 }
 
-if(!require(ggplot2)){
-  install.packages("ggplot2")
-  library(ggplot2)
-}
 
-# First, let's import and check the data set.
+# First, let's import and check our data set.
 df <- read.csv("../Data/uni.csv", h= T, sep = ";")
 class(df)
 str(df)
@@ -44,7 +44,7 @@ tail(df)
 
 # Calculate the number of institutions per country
 
-institutions_by_country <- df %>%
+numero_instituicoes_por_pais <- df %>%
   group_by(UniversityCountry) %>%
   summarise(NumeroDeInstituicoes = n_distinct(AuthorsInstitute))
 
@@ -55,7 +55,7 @@ institutions_by_country <- df %>%
 png("../Figure/institutions.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
-ggplot(institutions_by_country,
+ggplot(numero_instituicoes_por_pais,
        aes(x = UniversityCountry, y = NumeroDeInstituicoes)) +
   geom_segment(aes(x = UniversityCountry, xend = UniversityCountry,
                    y = 0, yend = NumeroDeInstituicoes), color = "#E04B5E") +

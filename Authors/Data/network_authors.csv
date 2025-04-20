@@ -1,5 +1,5 @@
 RefCode;Author
-B023 ;Yusuf A. A.
+B022;Yusuf A. A.
 B001;Sentil A.
 B020;Fereres A.
 B021;Munoz A. E.
@@ -19,7 +19,6 @@ B003;Siopa C.
 B020;Azpiazu C.
 B003;Lopez C. A.
 B006;Nicholson C. C.
-B022;Philips C. R.
 B019 ;Brittain C.
 B011;Kremen C.
 B013;Kremen C.
@@ -31,7 +30,6 @@ B012;Ganser D.
 B002;Lopez-Gallego E.
 B020;Vinuela E.
 B014;Elle E.
-B022;Middleton E. G.
 B017;Ahrenfeldt E. J.
 B012;Knop E.
 B003;Marks E. A. N.
@@ -39,19 +37,18 @@ B002;Ortiz-Sanchez F. J.
 B003;Azcarate F. M.
 B018 ;Azcarate F. M.
 B005;Bishop G. A.
-B026 ;Gale G. A.
+B025;Gale G. A.
 B006;Hoffman G. D.
 B017;Andersson G. K. S.
-B023 ;Lattorff H. M. G.
+B022;Lattorff H. M. G.
 B002;Ibanez H.
 B017;Smith H. G.
 B011;Sardinas H. S.
-B022;MacRae I. V.
 B001;Abdouni I. E.
-B024 ;Bottero I.
+B023;Bottero I.
 B020;Sanchez-Ramos I.
 B017;Arildsen J.
-B024 ;Stout J. C.
+B023;Stout J. C.
 B006;Gibbs J.
 B009;Gibbs J.
 B005;Scheper J.
@@ -71,7 +68,7 @@ B006;Wilson J. K.
 B009;Wilson J. K.
 B007;Osborne J. L.
 B006;Ward K. L.
-B023 ;Jordaens K.
+B022;Jordaens K.
 B001;Hamroud L.
 B006;Gut L. J.
 B009;Gut L. J.
@@ -86,9 +83,9 @@ B008;Plantegenest M.
 B002;Perez-Marcos M.
 B012;Albrecht M.
 B017;Trandem N.
-B023 ;Toukem N. K.
-B026 ;Warrit N.
-B025 ;Walton N. J.
+B022;Toukem N. K.
+B025;Warrit N.
+B024 ;Walton N. J.
 B006;Williams N. M.
 B019 ;Williams N. M.
 B006;Rothwell N. L.
@@ -104,7 +101,7 @@ B020;Estal P.
 B020;Estal P.
 B001;Rasmont P.
 B020;Medina P.
-B026 ;Tangtorwongsakul P.
+B025;Tangtorwongsakul P.
 B013;Long R. F.
 B010;Bommarco R.
 B019 ;Thorp R.
@@ -113,10 +110,10 @@ B007;Shaw R. F.
 B006;Isaacs R.
 B009;Isaacs R.
 B015 ;Isaacs R.
-B025 ;Isaacs R.
-B023 ;Mohamed S. A.
+B024 ;Isaacs R.
+B022;Mohamed S. A.
 B003;Castro S.
-B024 ;Hodge S.
+B023;Hodge S.
 B001;Christmann S.
 B019 ;Hendrix S. D.
 B006;Rao S.
@@ -125,7 +122,7 @@ B021;Zaviezo T.
 B006;Ricketts T. H.
 B017;Tscharntke T.
 B005;Fijen T. P. M. 
-B023 ;Dubois T.
+B022;Dubois T.
 B006;Wood T. J.
 B009;Wood T. J.
 B003;Hevia V.

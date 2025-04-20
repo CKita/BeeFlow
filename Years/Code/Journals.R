@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -24,14 +24,14 @@ getwd()
 rm(list= ls())
 
 #Load or install the required packages
-if(!require(dplyr)){
-  install.packages("dplyr")
-  library(dplyr)
-}
-
 if(!require(ggplot2)){
   install.packages("ggplot2")
   library(ggplot2)
+}
+
+if(!require(dplyr)){
+  install.packages("dplyr")
+  library(dplyr)
 }
 
 if(!require(stringr)){
@@ -40,7 +40,7 @@ if(!require(stringr)){
 }
 
 # First, let's import and check our data set
-articles <- read.csv("../Data/Article.csv", h= T, sep = ",")
+articles <- read.csv("../Data/Articles.csv", h= T, sep = ";")
 class(articles)
 str(articles)
 head(articles)

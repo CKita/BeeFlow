@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -67,8 +67,6 @@ g1 <- ggplot(fst_freq, aes(x = FloralPlantingType, y = Frequency)) +
         axis.ticks = element_line(color = "black", size = 0.3),  #add tick marks
         axis.title = element_text(size = 16),      # Tamanho do título dos eixos
         axis.text = element_text(size = 16))
-
-g1
 
 #Export the bar graph as PNG image.
 png("../Figure/floral_planting_types.png", res = 300,

@@ -54,6 +54,11 @@ if(!require(sf)){
   library(sf)
 }
 
+if(!require(dplyr)){
+  install.packages("dplyr")
+  library(dplyr)
+}
+
 # First, let's import and check our data set
 sites <- read.csv("../Data/sites.csv", h= T, sep = ",")
 class(sites)

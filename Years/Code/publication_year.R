@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt & Marco A. R. Mello
+#### Sara D. Leonhardt, & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -35,18 +35,20 @@ if(!require(dplyr)){
 }
 
 # First, let's import and check our data set.
-articles <- read.csv("../Data/Article.csv", h= T, sep = ",")
+articles <- read.csv("../Data/Articles.csv", h= T, sep = ";")
 class(articles)
 str(articles)
 head(articles)
 tail(articles)
 
 #change the class of Publication column from character to date
-articles$Publication <- as.Date(articles$Publication)
+articles$Publication <- as.Date(articles$Publication, format = "%d/%m/%Y")
+
 
 # Add a column with publication year
 articles <- articles %>%
   mutate(year_publication = format(articles$Publication, "%Y"))
+
 
 # Count the number of articles per year
 article_per_year <- articles %>%
@@ -59,6 +61,8 @@ article_per_year <- article_per_year %>%
 
 article_per_year$year_publication <- as.integer(article_per_year$
                                                   year_publication)
+
+View(article_per_year)
 
 # Create the point graph with connecting lines
 g1 <- ggplot(article_per_year, aes(x = year_publication, y = n_articles)) +
@@ -90,3 +94,5 @@ g1
 dev.off()
 
 ########################### THE END ############################################
+
+
