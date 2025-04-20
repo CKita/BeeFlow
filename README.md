@@ -180,7 +180,7 @@ The data and scripts provided here aim at making our study reproducible. You wil
 
 1.  Data (folder)
 
-    a.  Article.csv -\> data frame with raw data on the references of the selected studies.
+    a.  Articles.csv -\> data frame with raw data on the references of the selected studies.
 
 2.  Figure (folder)
 
