@@ -2,13 +2,13 @@
 
 Supplement to the manuscript:
 
-*Kita CA, Alves-dos-Santos I, Hrncir M, Leonhardt SD, Mello MAR. An ecological synthesis about the effects of floral plantings on crop pollination by bees. In prep.*
+*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. An ecological synthesis about the effects of floral plantings on crop pollination by bees. In prep.*
 
 This manuscript is part of the Ph.D. thesis CA Kita, enrolled in the Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
 [Ecological Synthesis Lab](https://marcomellolab.wordpress.com) (SintECO).
 
-Authors: [Cristina A. Kita](https://orcid.org/0000-0002-4079-2677), [Isabel Alves-dos-Santos](https://orcid.org/0000-0003-2352-1290), [Michael Hrncir](https://orcid.org/0000-0003-4931-3924), [Sara D. Leonhardt](https://orcid.org/0000-0002-8154-9569) & [Marco A. R. Mello](https://orcid.org/0000-0002-9098-9427).
+Authors: [Cristina A. Kita](https://orcid.org/0000-0002-4079-2677), [Isabel Alves-dos-Santos](https://orcid.org/0000-0003-2352-1290), [Michael Hrncir](https://orcid.org/0000-0003-4931-3924) & [Marco A. R. Mello](https://orcid.org/0000-0002-9098-9427).
 
 E-mail: [c.akemikita\@gmail.com](mailto:c.akemikita@gmail.com){.email}.
 
