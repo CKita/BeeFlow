@@ -1,8 +1,8 @@
 ################################################################################
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
-#### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir
+#### & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -101,7 +101,7 @@ modules <- cluster_louvain(g)
 membership <- membership(modules)
 
 # Define the color palette
-palette <- distinctColorPalette(max(membership))
+palette <- randomColor(count = max(membership), luminosity = "bright")
 
 # Give colors to the nodes
 node_color <- palette[membership]
@@ -149,15 +149,15 @@ png("../Figure/network_authors.png", res = 300, width = 12000,
 ggplot() +
   geom_segment(data = edge_data, 
                aes(x = x_from, y = y_from, xend = x_to, yend = y_to),
-               color = "darkgrey", alpha = 0.8, size = 2) +
+               color = "darkgrey", alpha = 0.8, size = 2.5) +
   geom_circle(data = circle_data, 
               aes(x0 = x_center, y0 = y_center, r = radius, 
-                  fill = as.factor(module)), alpha = 0.2, color = NA) +
+                  fill = as.factor(module)), alpha = 0.5, color = NA) +
   geom_point(data = node_data,
              aes(x = x, y = y, color = as.factor(module)), 
              size = 8, alpha = 1) +
   geom_text_repel(data = node_data, 
-                  aes(x = x, y = y, label = node), color = "black", size = 12, 
+                  aes(x = x, y = y, label = node), color = "black", size = 14, 
                   box.padding = 0.5, point.padding = 0.5, max.overlaps = Inf) +
   scale_fill_manual(values = palette, name = "Module") +
   scale_color_manual(values = palette, name = "Module") +

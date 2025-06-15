@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -46,6 +46,9 @@ crop_freq <- crop %>%
   count(CropType) %>%
   arrange(desc(n)) %>%
   rename(Frequency = n)
+
+# Order the CropType factor for descending bar order
+crop_freq$CropType <- factor(crop_freq$CropType, levels = crop_freq$CropType)
 
 #Choose the colors of the bar graph 
 

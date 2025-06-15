@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### Authors: Cristina A. Kita, Isabel Alves-dos-Santos, Michael Hrncir, 
-#### Sara D. Leonhardt, & Marco A. R. Mello
+#### & Marco A. R. Mello
 
 #### See README for further info:
 #### https://github.com/CKita/BeeFlow#readme
@@ -66,12 +66,11 @@ View(article_per_year)
 
 # Create the point graph with connecting lines
 g1 <- ggplot(article_per_year, aes(x = year_publication, y = n_articles)) +
-  geom_point(color = "mediumorchid", size = 3) +      
-  geom_line(color = "mediumorchid", linewidth = 0.5) + 
+  geom_line(color = "mediumorchid", linewidth = 2) +  # Linha mais grossa
   labs(title = "",
        x = "Year of publication",
        y = "Number of studies") +       
-theme_minimal() +                                  
+  theme_minimal() +                                  
   theme(panel.grid.major = element_blank(),        
         panel.grid.minor = element_blank(),        
         axis.title.x = element_text(vjust = -0.5),          
@@ -80,8 +79,7 @@ theme_minimal() +
         axis.ticks = element_line(color = "black", size = 0.3), 
         axis.title = element_text(size = 16),      
         axis.text = element_text(size = 16)) +      
-  
-    scale_x_continuous(breaks = seq(min(article_per_year$year_publication), 
+  scale_x_continuous(breaks = seq(min(article_per_year$year_publication), 
                                   max(article_per_year$year_publication), 
                                   by = 1))   
 g1
