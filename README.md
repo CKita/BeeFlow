@@ -59,92 +59,60 @@ The data and scripts provided here aim at making our study reproducible. You wil
 1.  Data (folder)
 
     a.  network_authors.csv -\> data frame with raw data on the authors of the selected studies.
-
-    b.  uni.csv -\> data frame with raw data on the institutions where the authors of the selected studies are based.
-
+    
 2.  Figure (folder)
 
     a.  network_authors.png -\> coauthorship network.
-
-    b.  uni.png -\> number of studies published per country.
 
 3.  Code (folder)
 
     a.  network_authors.R -\> commented script to help reproduce the figure `network_authors.png`.
 
-    b.  uni.R -\> commented script to help reproduce the figure `uni.png`.
-
+ 
 ### **Bees (folder)**
 
 1.  Data (folder)
 
-    a.  withApis.csv -\> data frame with raw data on bee Latin names and codes.
+    a.  crops effects and bees.csv -\> data frame with raw data on bee group per crop and the floral planting effect observed. 
 
 2.  Figure (folder)
 
-    a.  withApis.png -\> the top 10 most abundant bee species reported in the selected studies.
+    a.  crops effects and bees.png -\> floral planting effects per crop and bee group. 
 
 3.  Code (folder)
 
-    a.  bee.R -\> commented script to help reproduce the figure `withApis.png`.
+    a.  crops effects and bees.R -\> commented script to help reproduce the figure `crops effects and bees.png`.
 
 ### **Crops (folder)**
 
 1.  Data (folder)
 
-    a.  crop_type.csv -\> data frame with raw data on the crop types assessed in each study.
+    a.  crops and effects.csv -\> data frame with raw data on the crop types and the floral planting effects assessed in each study.
+    b.  studies and crops.csv -\> data frame with raw data on the crop types assessed in each study.
 
-2.  Figure (folder)
+3.  Figure (folder)
 
-    a.  crops.png -\> number of studies that assessed each crop type.
+    a.  crops and effects.png -\> percentage of floral planting effects per crop type assessed.
+    b.  studies and crops.png -\> number of studies that assessed each crop type.
 
-3.  Code (folder)
+5.  Code (folder)
 
-    a.  crops.R -\> commented script to help reproduce the figure `crops.png`.
-
-### **Effects (folder)**
-
-1.  Figure (folder)
-
-    a.  fishbone.png -\> environmental factors that seem to influence the effects of floral plantings on crop pollination by bees.
-
-2.  Code (folder)
-
-    a.  fishbone.R -\> commented script to help reproduce the figure `fishbone.png`.
+    a.  crops and effects.R -\> commented script to help reproduce the figure `crops and effects.png`.
+    b.  studies and crops.R -\> commented script to help reproduce the figure `studies and crops.png`.
 
 ### **Floral plantings (folder)**
 
 1.  Data (folder)
 
-    a.  floral_planting_type.csv -\> data frame with the types of floral plantings (hedgerows and flower strips) assessed in the selected studies.
-
-    b.  flowerStrip_per_diff_floral_plantings.csv -\> data frame with the plant species used in the floral plantings assessed in the selected study.
+    a.  floral planting and effect.csv -\> data frame with floral planting composition assessed in the selected studies.
 
 2.  Figure (folder)
 
-    a.  floral_planting_types.png -\> number of studies that assessed each type of floral plantings.
-
-    b.  floral_plantings.png -\> The top 10 most common plant species cultivated in floral plantings.
+    a.  floral planting and effect.png -\> floral planting composition dissimilarity per floral planting effect assessed.
 
 3.  Code (folder)
 
-    a.  floral_planting_type.R -\> commented script to help reproduce the figure `floral_planting_types.png`.
-
-    b.  flowers.R -\> commented script to help reproduce the figure `floral_plantings.png`.
-
-### **Keywords (folder)**
-
-1.  Data (folder)
-
-    a.  keywords.csv -\> data frame with the keywords reported in each study.
-
-2.  Figure (folder)
-
-    a.  wordcloud.png -\> wordcloud with the keywords used in the selected studies.
-
-3.  Code (folder)
-
-    a.  keywords.R -\> commented script to help reproduce the figure `wordcloud.png`.
+    a.  floral planting and effect.R -\> commented script to help reproduce the figure `floral planting and effect.png`.
 
 ### **Litsearch (folder)**
 
@@ -164,35 +132,15 @@ The data and scripts provided here aim at making our study reproducible. You wil
 
 1.  Data (folder)
 
-    a.  sites.csv -\> data frame with raw data on the sites where the selected studies were conducted.
+    a.  studies and countries.csv -\> data frame with raw data on the sites where the selected studies were conducted.
 
 2.  Figure (folder)
 
-    a.  sites.png -\> locations of the study sites on the world.
-
-    b.  sites2.png -\> number of studies conducted per country.
+    a.  studies and countries.png -\> locations of the study sites on the world.
 
 3.  Code (folder)
 
-    a.  Sites.R -\> commented script to help reproduce the figures `sites.png` and `sites2.png`.
-
-### **Years (folder)**
-
-1.  Data (folder)
-
-    a.  Articles.csv -\> data frame with raw data on the references of the selected studies.
-
-2.  Figure (folder)
-
-    a.  journals.png -\> number of studies published per journal.
-
-    b.  publication_year.png -\> number of studies published per year.
-
-3.  Code (folder)
-
-    a.  Journals.R -\> commented script to help reproduce the figure `journals.png`.
-
-    b.  publication_year -\> commented script to help reproduce the figure `publication_year.png`.
+    a.  studies and countries.R -\> commented script to help reproduce the figure `studies and countries.png`.
 
 ### **Articles included in the review (file)**
 
@@ -202,9 +150,6 @@ List of articles included in our review.
 
 Processed data used in our quantitative and qualitative analyses.
 
-### **Supplementary text (file)**
-
-Supplementary text with information on the effect of floral plantings per crop type and figures related to the bibliometric map.
 
 ## Instructions
 
