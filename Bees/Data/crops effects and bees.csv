@@ -1,0 +1,89 @@
+RefCode ;CropType;Bees;EffectType
+B001;melon (Cucumis melo);wild bees;exporter
+B001;melon (Cucumis melo);honeybees;neutral
+B002;melon (Cucumis melo);honeybees;neutral
+B002;melon (Cucumis melo);wild bees;neutral
+B003;sunflower (Helianthus annuus);wild bees;neutral
+B003;sunflower (Helianthus annuus);wild bees;exporter
+B003;sunflower (Helianthus annuus);honeybees;neutral
+B003;sunflower (Helianthus annuus);honeybees;neutral
+B003;sunflower (Helianthus annuus);wild bees;neutral
+B003;sunflower (Helianthus annuus);honeybees;neutral
+B003;sunflower (Helianthus annuus);wild bees;exporter
+B003;sunflower (Helianthus annuus);honeybees;exporter
+B004;sunflower (Helianthus annuus);wild bees;neutral
+B004;sunflower (Helianthus annuus);wild bees;exporter
+B004;sunflower (Helianthus annuus);honeybees;neutral
+B004;sunflower (Helianthus annuus);honeybees;exporter
+B005;apple (Malus domestica);wild bees;concentrator
+B005;apple (Malus domestica);wild bees;concentrator
+B006;blueberry (Vaccinium corymbosum);wild bees;neutral
+B006;blueberry (Vaccinium corymbosum);wild bees;neutral
+B006;cherry (Prunus cerasus);wild bees;neutral
+B006;watermelon (Citrullus lanatus);wild bees;neutral
+B006;blueberry (Vaccinium corymbosum);wild bees;neutral
+B006;blueberry (Vaccinium corymbosum);wild bees;neutral
+B006;cherry (Prunus cerasus);wild bees;neutral
+B006;watermelon (Citrullus lanatus);wild bees;neutral
+B007;courgette (Cucurbita pepo);honeybees;exporter
+B007;courgette (Cucurbita pepo);bumble bees;exporter
+B007;courgette (Cucurbita pepo);wild bees;concentrator
+B008;avocado (Persea americana);honeybees;neutral
+B009;blueberry (Vaccinium corymbosum);bumble bees;neutral
+B009;blueberry (Vaccinium corymbosum);wild bees;neutral
+B009;cherry (Prunus cerasus);wild bees;neutral
+B009;blueberry (Vaccinium corymbosum);bumble bees;neutral
+B009;cherry (Prunus cerasus);wild bees;neutral
+B010;red clover (Trifolium pratense);bumble bees;exporter
+B010;red clover (Trifolium pratense);bumble bees;neutral
+B011;sunflower (Helianthus annuus);wild bees;concentrator
+B011;sunflower (Helianthus annuus);wild bees;concentrator
+B012;strawberry (Fragaria ananassa);honeybees;neutral
+B012;strawberry (Fragaria ananassa);wild bees;exporter
+B012;strawberry (Fragaria ananassa);bumble bees;exporter
+B013;field mustard (Brassica rapa);honeybees;neutral
+B013;field mustard (Brassica rapa);wild bees;exporter
+B014;blueberry (Vaccinium corymbosum);bumble bees;neutral
+B014;blueberry (Vaccinium corymbosum);wild bees;concentrator
+B014;blueberry (Vaccinium corymbosum);honeybees;neutral
+B014;blueberry (Vaccinium corymbosum);bumble bees;concentrator
+B015;blueberry (Vaccinium corymbosum);honeybees;neutral
+B015;blueberry (Vaccinium corymbosum);wild bees;exporter
+B016;tomato (Solanum lycopersicum);wild bees;exporter
+B016;tomato (Solanum lycopersicum);wild bees;exporter
+B016;tomato (Solanum lycopersicum);honeybees;exporter
+B017;strawberry (Fragaria ananassa);wild bees;concentrator
+B018;sunflower (Helianthus annuus);wild bees;concentrator
+B019;almond (Prunus dulcis);honeybees;neutral
+B019;almond (Prunus dulcis);wild bees;concentrator
+B019;almond (Prunus dulcis);wild bees;exporter
+B019;almond (Prunus dulcis);wild bees;exporter
+B020;melon (Cucumis melo);unidentified;exporter
+B020;melon (Cucumis melo);unidentified;neutral
+B021;avocado (Persea americana);wild bees;concentrator
+B022;avocado (Persea americana);honeybees;concentrator
+B023;oilseed rape (Brassica napus);wild bees;neutral
+B023;apple (Malus domestica);wild bees;neutral
+B023;oilseed rape (Brassica napus);honeybees;neutral
+B023;apple (Malus domestica);honeybees;neutral
+B023;apple (Malus domestica);bumble bees;exporter
+B023;oilseed rape (Brassica napus);bumble bees;neutral
+B024;blueberry (Vaccinium corymbosum);unidentified;neutral
+B025;mango (Mangifera indica);unidentified;neutral
+B025;mango (Mangifera indica);unidentified;exporter
+B026;apple (Malus domestica);unidentified;neutral
+B027;oilseed rape (Brassica napus);unidentified;exporter
+B028;apple (Malus domestica);honeybees;neutral
+B028;apple (Malus domestica);bumble bees;neutral
+B028;apple (Malus domestica);wild bees;concentrator
+B029;buckwheat (Fagopyrum esculentum);honeybees;exporter
+B030;cucumber (Cucumis sativus);unidentified;concentrator
+B030;cucumber (Cucumis sativus);unidentified;concentrator
+B031;sunflower (Helianthus annuus);wild bees;exporter
+B032;oilseed rape (Brassica napus);honeybees;neutral
+B032;oilseed rape (Brassica napus);bumble bees;concentrator
+B032;oilseed rape (Brassica napus);wild bees;concentrator
+B033;strawberry (Fragaria ananassa);unidentified;neutral
+B033;strawberry (Fragaria ananassa);unidentified;neutral
+B033;strawberry (Fragaria ananassa);unidentified;exporter
+B034;apple (Malus domestica);wild bees;neutral

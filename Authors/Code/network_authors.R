@@ -68,7 +68,7 @@ if(!require(ggrepel)){
 
 # First, let's see our data set
 
-df <- read.csv("../Data/network_authors.csv", h= T, sep = ";")
+df <- read.csv("../Data/network_author.csv", h= T, sep = ";")
 class(df)
 str(df)
 head(df)
@@ -91,7 +91,8 @@ for (article in unique(paper)) {
 }
 
 # Convert to matrix
-coauthor_pairs <- do.call(rbind, lapply(coauthor_pairs_list, function(x) matrix(x, ncol = 2)))
+coauthor_pairs <- do.call(rbind, lapply(coauthor_pairs_list, 
+                                        function(x) matrix(x, ncol = 2)))
 
 # Create a graph
 g <- graph_from_edgelist(coauthor_pairs, directed = FALSE)
@@ -169,10 +170,5 @@ ggplot() +
 
 dev.off()
 
+
 ############################## THE END #########################################
-
-
-
-
-
-

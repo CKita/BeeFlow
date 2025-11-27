@@ -1,0 +1,56 @@
+RefCode ;CropType;EffectType
+B001;melon (Cucumis melo);exporter
+B001;melon (Cucumis melo);neutral
+B002;melon (Cucumis melo);neutral
+B003;sunflower (Helianthus annuus);neutral
+B003;sunflower (Helianthus annuus);exporter
+B004;sunflower (Helianthus annuus);neutral
+B004;sunflower (Helianthus annuus);exporter
+B005;apple (Malus domestica);concentrator
+B006;blueberry (Vaccinium corymbosum);neutral
+B006;cherry (Prunus cerasus);neutral
+B006;watermelon (Citrullus lanatus);neutral
+B007;courgette (Cucurbita pepo);exporter
+B007;courgette (Cucurbita pepo);concentrator
+B008;avocado (Persea americana);neutral
+B009;blueberry (Vaccinium corymbosum);neutral
+B009;cherry (Prunus cerasus);neutral
+B010;red clover (Trifolium pratense);exporter
+B010;red clover (Trifolium pratense);neutral
+B011;sunflower (Helianthus annuus);concentrator
+B012;strawberry (Fragaria ananassa);neutral
+B012;strawberry (Fragaria ananassa);exporter
+B013;field mustard (Brassica rapa);neutral
+B013;field mustard (Brassica rapa);exporter
+B014;blueberry (Vaccinium corymbosum);neutral
+B014;blueberry (Vaccinium corymbosum);concentrator
+B015;blueberry (Vaccinium corymbosum);neutral
+B015;blueberry (Vaccinium corymbosum);exporter
+B016;tomato (Solanum lycopersicum);exporter
+B017;strawberry (Fragaria ananassa);concentrator
+B018;sunflower (Helianthus annuus);concentrator
+B019;almond (Prunus dulcis);neutral
+B019;almond (Prunus dulcis);concentrator
+B019;almond (Prunus dulcis);exporter
+B020;melon (Cucumis melo);exporter
+B020;melon (Cucumis melo);neutral
+B021;avocado (Persea americana);concentrator
+B022;avocado (Persea americana);concentrator
+B023;oilseed rape (Brassica napus);neutral
+B023;apple (Malus domestica);neutral
+B023;apple (Malus domestica);exporter
+B024;blueberry (Vaccinium corymbosum);neutral
+B025;mango (Mangifera indica);neutral
+B025;mango (Mangifera indica);exporter
+B026;apple (Malus domestica);neutral
+B027;oilseed rape (Brassica napus);exporter
+B028;apple (Malus domestica);neutral
+B028;apple (Malus domestica);concentrator
+B029;buckwheat (Fagopyrum esculentum);exporter
+B030;cucumber (Cucumis sativus);concentrator
+B031;sunflower (Helianthus annuus);exporter
+B032;oilseed rape (Brassica napus);neutral
+B032;oilseed rape (Brassica napus);concentrator
+B033;strawberry (Fragaria ananassa);neutral
+B033;strawberry (Fragaria ananassa);exporter
+B034;apple (Malus domestica);neutral
