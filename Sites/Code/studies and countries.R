@@ -121,3 +121,6 @@ png("../Figure/studies and countries.png",
     res = 300, width = 4000, height = 2000)
 print(g2)
 dev.off()
+
+
+############################## THE END #########################################
