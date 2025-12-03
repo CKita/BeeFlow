@@ -2,7 +2,7 @@
 
 Supplement to the manuscript:
 
-*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. An ecological synthesis about the effects of floral plantings on crop pollination by bees. In prep.*
+*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. An ecological synthesis about the effects of floral plantings on crop pollination by bees. Submitted. (Check out the [preprint](https://doi.org/10.1101/2025.09.01.673359))*
 
 This manuscript is part of the Ph.D. thesis of CA Kita, enrolled in the Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
@@ -14,7 +14,7 @@ E-mail: [c.akemikita\@gmail.com](mailto:c.akemikita@gmail.com){.email}.
 
 Originally published on November 12th, 2024.
 
-Run in R version 4.4.2 (2024-10-31) -- "Pile of Leaves".
+Run in R version 4.5.1 (2025-06-13) -- "Great Square Root".
 
 ## Disclaimer
 
@@ -44,9 +44,7 @@ Users are expected to comply with all applicable ethical and legal standards whe
 
 ### Citation
 
-If you use this repository in your work (software, paper, book, chapter, monograph, dissertation, thesis, report, poster, talk, keynote, lecture or similar), please cite the original paper and the DOI to this repository.
-
-By using this repository, you acknowledge and accept the terms of this disclaimer.
+If you use this repository in your work (software, paper, book, chapter, monograph, dissertation, thesis, report, poster, talk, keynote, lecture or similar), please cite the original paper and the DOI to this repository. By using this repository, you acknowledge and accept the terms of this disclaimer.
 
 ## Functionality
 
@@ -59,7 +57,7 @@ The data and scripts provided here aim at making our study reproducible. You wil
 1.  Data (folder)
 
     a.  network_authors.csv -\> data frame with raw data on the authors of the selected studies.
-    
+
 2.  Figure (folder)
 
     a.  network_authors.png -\> coauthorship network.
@@ -68,16 +66,15 @@ The data and scripts provided here aim at making our study reproducible. You wil
 
     a.  network_authors.R -\> commented script to help reproduce the figure `network_authors.png`.
 
- 
 ### **Bees (folder)**
 
 1.  Data (folder)
 
-    a.  crops effects and bees.csv -\> data frame with raw data on bee group per crop and the floral planting effect observed. 
+    a.  crops effects and bees.csv -\> data frame with raw data on bee group per crop and the floral planting effect observed.
 
 2.  Figure (folder)
 
-    a.  crops effects and bees.png -\> floral planting effects per crop and bee group. 
+    a.  crops effects and bees.png -\> floral planting effects per crop and bee group.
 
 3.  Code (folder)
 
@@ -90,12 +87,12 @@ The data and scripts provided here aim at making our study reproducible. You wil
     a.  crops and effects.csv -\> data frame with raw data on the crop types and the floral planting effects assessed in each study.
     b.  studies and crops.csv -\> data frame with raw data on the crop types assessed in each study.
 
-3.  Figure (folder)
+2.  Figure (folder)
 
     a.  crops and effects.png -\> percentage of floral planting effects per crop type assessed.
     b.  studies and crops.png -\> number of studies that assessed each crop type.
 
-5.  Code (folder)
+3.  Code (folder)
 
     a.  crops and effects.R -\> commented script to help reproduce the figure `crops and effects.png`.
     b.  studies and crops.R -\> commented script to help reproduce the figure `studies and crops.png`.
@@ -144,12 +141,11 @@ The data and scripts provided here aim at making our study reproducible. You wil
 
 ### **Articles included in the review (file)**
 
-List of articles included in our review.
+List of articles included in our review (XLSX format).
 
 ### **Processed data (file)**
 
-Processed data used in our quantitative and qualitative analyses.
-
+Processed data used in our quantitative and qualitative analyses (XLSX format).
 
 ## Instructions
 
@@ -163,7 +159,7 @@ Processed data used in our quantitative and qualitative analyses.
 
 If you have any questions, corrections, or suggestions, please feel free to open an [issue](https://github.com/CKita/BeeFlow/issues) or make a [pull request](https://github.com/CKita/BeeFlow/pulls).
 
-## Acknowledgments
+## Acknowledgments <!--# Confira se estas duas últimas seções estão iguais às do artigo -->
 
 We are deeply grateful to the authors of all primary studies included in our systematic review, whose empirical work made our synthesis possible. Special thanks go to Astrid Kleinert and [Renata Muylaert](https://renatamuy.github.io) for their invaluable insight and advice, which helped us see the bigger picture and put CAK’s Ph.D. project in perspective. Last but not least, we thank the Stack Overflow community (<https://stackoverflow.com/>), where we solve most of our coding dilemmas.
 
