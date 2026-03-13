@@ -60,136 +60,93 @@ if(!require(digest)){
 }
 
 
-# First, let's look at our dataset
+################################################################################
+# 1) Load and clean data
+################################################################################
+
 df <- read.csv2("../Data/floral planting and effect.csv", header = TRUE)
+
+# Quick check
 class(df)
 str(df)
 head(df)
 tail(df)
 
-# Clean whitespace from all key text columns
+# Clean whitespace from key columns
 df <- df %>%
   mutate(
-    RefCode = trimws(RefCode),
-    EffectType = trimws(EffectType),
-    Mix = trimws(Mix),
+    RefCode       = trimws(RefCode),
+    EffectType    = trimws(EffectType),
+    Mix           = trimws(Mix),
     FlowerSpecies = trimws(FlowerSpecies)
   )
 
-# Builds a community matrix (presence/absence) from a data frame with 
-# UnitID + FlowerSpecies
+################################################################################
+# 2) Build community matrix (presence/absence) by UnitID
+################################################################################
 
+# Builds a community matrix (presence/absence) from a data frame with
+# unit_col + FlowerSpecies
 make_comm <- function(x, unit_col = "UnitID") {
   comm <- x %>%
     mutate(presence = 1) %>%
     distinct(.data[[unit_col]], FlowerSpecies, .keep_all = TRUE) %>%
     pivot_wider(
-      id_cols    = all_of(unit_col),
-      names_from = FlowerSpecies,
-      values_from = presence,
-      values_fill = 0
+      id_cols      = all_of(unit_col),
+      names_from   = FlowerSpecies,
+      values_from  = presence,
+      values_fill  = 0
     ) %>%
     as.data.frame()
-  # ensure numeric and clean
+  
+  # Ensure numeric and clean
   if (ncol(comm) > 1) {
-    comm[ , -1] <- lapply(comm[ , -1], function(z) as.numeric(as.character(z)))
+    comm[, -1] <- lapply(comm[, -1], as.numeric)
     comm[is.na(comm)] <- 0
-    comm <- comm[rowSums(comm[ , -1]) > 0, , drop = FALSE]
+    comm <- comm[rowSums(comm[, -1]) > 0, , drop = FALSE]
   }
+  
   comm
 }
 
-# From comm + meta(EffectType), compute within/between pairs and return 
-#data.frame for violin plot
+################################################################################
+# 3) Define UnitID and create comm + meta tables
+################################################################################
 
-make_pairs_within_between <- function(comm, meta, unit_col = "UnitID") {
-  # align meta to the order of comm
-  meta <- meta[match(comm[[unit_col]], meta[[unit_col]]), , drop = FALSE]
-  stopifnot(nrow(meta) == nrow(comm))
-  # dissimilarity
-  dist_jac <- vegdist(comm[ , -1], method = "jaccard")
-  dm <- as.matrix(dist_jac)
-  n <- nrow(dm)
-  pairs_df <- do.call(rbind, lapply(1:(n-1), function(i) {
-    j <- (i+1):n
-    data.frame(
-      dissimilarity = dm[i, j],
-      eff_i = meta$EffectType[i],
-      eff_j = meta$EffectType[j]
-    )
-  })) %>%
-    mutate(pair_type = ifelse(eff_i == eff_j, "within", "between")) %>%
-    filter(is.finite(dissimilarity)) %>%
-    mutate(pair_type = fct_relevel(pair_type, "within", "between"))
-  pairs_df
-}
-
-# Build a standardized violin plot and returns the ggplot object
-plot_violin <- function(pairs_df, subtitle = NULL) {
-  means_df <- pairs_df %>%
-    group_by(pair_type) %>%
-    summarise(m = mean(dissimilarity), .groups = "drop")
-  
-  ggplot(pairs_df, aes(x = pair_type, y = dissimilarity, fill = pair_type)) +
-    geom_violin(trim = FALSE, alpha = 0.85, color = "gray50", adjust = 1.2) +
-    geom_boxplot(width = 0.18, outlier.shape = NA, 
-                 alpha = 0.75, color = "gray40") +
-    stat_summary(fun = mean, geom = "point", size = 3.8, color = "white") +
-    scale_fill_manual(values = c(within = "#7B68EE", between = "#FFD166")) +
-    labs(x = NULL, y = "Jaccard dissimilarity", subtitle = subtitle) +
-    theme_minimal(base_size = 12) +
-    theme(
-      legend.position   = "none",
-      panel.grid.minor  = element_blank(),
-      axis.text.x       = element_text(size = 12),
-      axis.text.y       = element_text(size = 12),
-      axis.title.y      = element_text(size = 14, face = "bold",
-                                       margin = margin(r = 10))
-    ) +
-    # label of the mean next to the point
-    geom_text(
-      data = means_df,
-      aes(x = as.numeric(pair_type) + 0.04, y = m,
-          label = sprintf("mean = %.2f", m)),
-      inherit.aes = FALSE, size = 3.5, hjust = 0
-    ) +
-    coord_cartesian(ylim = c(0, 1), clip = "off")
-}
-
-# BASELINE: unit = Study–Mix–Effect (RefCode_Mix_EffectType) ===
+# Unit = Study–Mix–Effect (RefCode_Mix_EffectType)
 df1 <- df %>%
   mutate(UnitID = paste(RefCode, Mix, EffectType, sep = "_"))
 
-comm1 <- make_comm(df1, "UnitID")
+# Community matrix
+comm1 <- make_comm(df1, unit_col = "UnitID")
+
+# Metadata (EffectType per UnitID)
 meta1 <- df1 %>%
   distinct(UnitID, EffectType)
 
-# remove units without EffectType (rare) and align (defensive)
+# Align meta to comm order (defensive)
 meta1 <- meta1[match(comm1$UnitID, meta1$UnitID), , drop = FALSE]
+
+# Remove units with missing EffectType (defensive)
 keep <- !is.na(meta1$EffectType)
 comm1 <- comm1[keep, , drop = FALSE]
 meta1 <- meta1[keep, , drop = FALSE]
 
-pairs1 <- make_pairs_within_between(comm1, meta1, "UnitID")
-p1 <- plot_violin(pairs1, subtitle = "Baseline: Study–Mix–Effect")
+################################################################################
+# 4) Compute Jaccard dissimilarity matrix
+################################################################################
 
-p1
-
-# (1) Reuse the matrices from the previous analysis ---
-# comm1 = presence/absence matrix by UnitID (Study–Mix–Effect)
-# meta1 = table with UnitID and EffectType
-# If you have closed R, just reload your spreadsheet and redo the steps up to 
-# comm1/meta1
-
-# Compute the dissimilarity matrix (Jaccard)
-dist_jac <- vegdist(comm1[ , -1], method = "jaccard")
+dist_jac <- vegdist(comm1[, -1], method = "jaccard")
 dm <- as.matrix(dist_jac)
 
-# (2) Compute mean dissimilarity for each unit relative to others of the 
-# same effect
+################################################################################
+# 5) Compute mean dissimilarity for each unit relative to others of same effect
+################################################################################
+
 avg_diss <- sapply(1:nrow(dm), function(i) {
   eff_i <- meta1$EffectType[i]
-  same_eff <- which(meta1$EffectType == eff_i & 1:nrow(dm) != i)
+  same_eff <- which(meta1$EffectType == eff_i & seq_len(nrow(dm)) != i)
+  
   if (length(same_eff) > 0) {
     mean(dm[i, same_eff])
   } else {
@@ -197,7 +154,6 @@ avg_diss <- sapply(1:nrow(dm), function(i) {
   }
 })
 
-# Create final dataframe for the plot
 avg_df <- data.frame(
   EffectType         = meta1$EffectType,
   mean_dissimilarity = avg_diss
@@ -206,31 +162,77 @@ avg_df <- data.frame(
   mutate(EffectType = 
            fct_relevel(EffectType, "exporter", "neutral", "concentrator"))
 
-# --- (3) Plot boxplot ---
-g <- ggplot(avg_df, aes(x = EffectType, y = mean_dissimilarity, 
+################################################################################
+# 6) Statistical test among effect types (recommended)
+################################################################################
+
+kruskal_res <- kruskal.test(mean_dissimilarity ~ EffectType, data = avg_df)
+print(kruskal_res)
+
+
+kw_label <- paste0(
+  "Kruskal–Wallis\n",
+  "χ² = ", round(kruskal_res$statistic, 2),
+  ", p = ", round(kruskal_res$p.value, 2)
+)
+################################################################################
+# 7) Plot boxplot (Figure 5)
+################################################################################
+
+
+g <- ggplot(avg_df, aes(x = EffectType, y = mean_dissimilarity,
                         fill = EffectType)) +
-  geom_boxplot(width = 0.5, alpha = 0.8, color = "gray40") +
-  geom_jitter(width = 0.1, alpha = 0.6, size = 2) +
+  
+  geom_violin(width = 0.9, alpha = 0.3, color = NA) +
+  
+  geom_boxplot(width = 0.25, alpha = 0.85, color = "black",
+               outlier.shape = NA) +
+  
+  geom_jitter(width = 0.08, alpha = 0.7, size = 2) +
+  
   scale_fill_manual(values = c(
     exporter     = "#8BC34A",
     neutral      = "#B0BEC5",
     concentrator = "#F48FB1"
   )) +
+  
   labs(
     x = "Effect type",
     y = "Mean Jaccard dissimilarity\n(within same effect)"
   ) +
-  theme_minimal(base_size = 14) +
+  
+  theme_classic(base_size = 15) +
+  
   theme(
     legend.position = "none",
     axis.text       = element_text(size = 14),
-    axis.title.x    = element_text(size = 14, face = "bold", 
-                                   margin = margin(t = 20)),
-    axis.title.y    = element_text(size = 14, face = "bold",
-                                   margin = margin(r = 20))
+    axis.title.x    = element_text(size = 15, face = "bold",
+                                   margin = margin(t = 15)),
+    axis.title.y    = element_text(size = 15, face = "bold",
+                                   margin = margin(r = 15))
   )
 
-g
+g <- g +
+  annotate(
+    "label",
+    x = 3.6,
+    y = 0.77,
+    label = kw_label,
+    size = 4.8,
+    hjust = 1,
+    fill = "white",
+    color = "black",
+    label.size = 0.5
+  )
+
+g <- g +
+  scale_y_continuous(
+    limits = c(0.75, 1.01),
+    breaks = seq(0.75, 1.00, by = 0.05),
+    expand = c(0, 0)
+  )
+
+print(g)
 
 # Export the plot
 png(filename = "../Figure/floral plantings and effects.png", 

@@ -62,13 +62,26 @@ df <- df %>%
                              "concentrator", "exporter", "neutral") 
   )
 
+# Exclude crops that exhibit only one effect type
+
+levels(df$CropType)
+
+df_filtered <- df[!df$CropType %in% c("buckwheat (Fagopyrum esculentum)",
+                                      "cherry (Prunus cerasus)",
+                                      "cucumber (Cucumis sativus)",
+                                      "tomato (Solanum lycopersicum)",
+                                      "watermelon (Citrullus lanatus)"), ]
+
 # Calculate proportions within each crop and bee group 
-plot_df <- df %>%
+plot_df <- df_filtered %>%
   distinct(RefCode, CropType, Bees, EffectType) %>% 
   count(CropType, Bees, EffectType, name = "n") %>%
   group_by(CropType, Bees) %>%
   mutate(prop = n / sum(n)) %>%
   ungroup()
+
+
+
 
 # Plot 
 g <- ggplot(plot_df, aes(x = Bees, y = prop, fill = EffectType)) +
@@ -102,6 +115,7 @@ g <- ggplot(plot_df, aes(x = Bees, y = prop, fill = EffectType)) +
     panel.grid.major.x = element_blank(),
     strip.text = element_text(size = 20) # crop names in panels
   )
+
 
 # Export the plot
 png(filename = "../Figure/crops effects and bees.png", 

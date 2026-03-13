@@ -1,0 +1,602 @@
+RefCode ;CropType;FlowerSpecies;Mix
+B001;melon (Cucumis melo);Coriandrum sativum;1
+B001;melon (Cucumis melo);Helianthus annuus;1
+B001;melon (Cucumis melo);Pimpinella anisum;1
+B001;melon (Cucumis melo);Solanum melongena;1
+B001;melon (Cucumis melo);Anethum graveolens;1
+B001;melon (Cucumis melo);Cucurbita pepo;1
+B001;melon (Cucumis melo);Cuminum cyminum;1
+B001;melon (Cucumis melo);Ocimum basilicum;1
+B002;melon (Cucumis melo);Matricaria chamomilla;2
+B002;melon (Cucumis melo);Diplotaxis catholica;2
+B002;melon (Cucumis melo);Medicago sp.;2
+B002;melon (Cucumis melo);Vicia sativa;2
+B002;melon (Cucumis melo);Lamium sp.;2
+B002;melon (Cucumis melo);Salvia verbenaca;2
+B002;melon (Cucumis melo);Nigella damascena;2
+B003;sunflower (Helianthus annuus);Borago officinalis;3
+B003;sunflower (Helianthus annuus);Calendula arvensis;3
+B003;sunflower (Helianthus annuus);Coriandrum sativum ;3
+B003;sunflower (Helianthus annuus);Diplotaxis erucoides;3
+B003;sunflower (Helianthus annuus);Echium plantagineum;3
+B003;sunflower (Helianthus annuus);Medicago sativa;3
+B003;sunflower (Helianthus annuus);Nigella damascena;3
+B003;sunflower (Helianthus annuus);Salvia pratensis;3
+B003;sunflower (Helianthus annuus);Silene vulgaris;3
+B003;sunflower (Helianthus annuus);Sinapis alba;3
+B003;sunflower (Helianthus annuus);Vicia sativa;3
+B003;sunflower (Helianthus annuus);Borago officinalis;3
+B003;sunflower (Helianthus annuus);Calendula arvensis;3
+B003;sunflower (Helianthus annuus);Coriandrum sativum;3
+B003;sunflower (Helianthus annuus);Medicago sativa;3
+B003;sunflower (Helianthus annuus);Sinapis alba;3
+B003;sunflower (Helianthus annuus);Diplotaxis catholica;3
+B004;sunflower (Helianthus annuus);Borago officinalis;4
+B004;sunflower (Helianthus annuus);Calendula arvensis;4
+B004;sunflower (Helianthus annuus);Coriandrum sativum;4
+B004;sunflower (Helianthus annuus);Salvia pratensis;4
+B004;sunflower (Helianthus annuus);Melilotus officinalis;4
+B004;sunflower (Helianthus annuus);Diplotaxis erucoides;4
+B004;sunflower (Helianthus annuus);Echium plantagineum;4
+B004;sunflower (Helianthus annuus);Silene vulgaris;4
+B004;sunflower (Helianthus annuus);Vicia sativa;4
+B004;sunflower (Helianthus annuus);Nigella damascena;4
+B004;sunflower (Helianthus annuus);Sinapis alba;4
+B004;sunflower (Helianthus annuus);Medicago sativa;4
+B005;apple (Malus domestica);Crataegus monogyna;5
+B005;apple (Malus domestica);Carpinus betulus (L.);5
+B005;apple (Malus domestica);Alnus glutinosa (L.);5
+B006;blueberry (Vaccinium corymbosum);Achillea millefolium;6
+B006;blueberry (Vaccinium corymbosum);Andropogon gerardii;6
+B006;blueberry (Vaccinium corymbosum);Anemone canadensis;6
+B006;blueberry (Vaccinium corymbosum);Baptisia alba;6
+B006;blueberry (Vaccinium corymbosum);Coreopsis lanceolata;6
+B006;blueberry (Vaccinium corymbosum);Echinacea purpureum;6
+B006;blueberry (Vaccinium corymbosum);Elymus canadensis;6
+B006;blueberry (Vaccinium corymbosum);Eryngium yuccifolium;6
+B006;blueberry (Vaccinium corymbosum);Euthamia graminifolia;6
+B006;blueberry (Vaccinium corymbosum);Monarda fistulosa;6
+B006;blueberry (Vaccinium corymbosum);Monarda punctata;6
+B006;blueberry (Vaccinium corymbosum);Oenothera biennis;6
+B006;blueberry (Vaccinium corymbosum);Penstemon digitalis;6
+B006;blueberry (Vaccinium corymbosum);Penstemon hirsutus;6
+B006;blueberry (Vaccinium corymbosum);Pycnanthemum virginianum;6
+B006;blueberry (Vaccinium corymbosum);Ratibida pinnata;6
+B006;blueberry (Vaccinium corymbosum);Rudbeckia hirta;6
+B006;blueberry (Vaccinium corymbosum);Rudbeckia triloba;6
+B006;blueberry (Vaccinium corymbosum);Schizachyrium scoparium;6
+B006;blueberry (Vaccinium corymbosum);Scrophularia marilandica;6
+B006;blueberry (Vaccinium corymbosum);Solidago nemoralis;6
+B006;blueberry (Vaccinium corymbosum);Solidago rigida;6
+B006;blueberry (Vaccinium corymbosum);Solidago speciosa;6
+B006;blueberry (Vaccinium corymbosum);Sorghastrum nutans;6
+B006;blueberry (Vaccinium corymbosum);Symphyotrichum laeve;6
+B006;blueberry (Vaccinium corymbosum);Symphyotrichum novae-angliae;6
+B006;blueberry (Vaccinium corymbosum);Symphyotrichum urophyllum;6
+B006;blueberry (Vaccinium corymbosum);Tradescantia ohiensis;6
+B006;blueberry (Vaccinium corymbosum);Verbena stricta;6
+B006;blueberry (Vaccinium corymbosum);Zizia aurea;6
+B006;blueberry (Vaccinium corymbosum);Lupinus polyphylus;7
+B006;blueberry (Vaccinium corymbosum);Sidalcea campestris;7
+B006;blueberry (Vaccinium corymbosum);Collinsia grandiflora;7
+B006;blueberry (Vaccinium corymbosum);Gilia capitate;7
+B006;blueberry (Vaccinium corymbosum);Solidago canadensis;7
+B006;blueberry (Vaccinium corymbosum);Phacelia heterophylla;7
+B006;blueberry (Vaccinium corymbosum);Madia elegans;7
+B006;blueberry (Vaccinium corymbosum);Symphyotrichum subspicatum;7
+B006;cherry (Prunus cerasus);Achillea millefolium;6
+B006;cherry (Prunus cerasus);Andropogon gerardii;6
+B006;cherry (Prunus cerasus);Anemone canadensis;6
+B006;cherry (Prunus cerasus);Baptisia alba;6
+B006;cherry (Prunus cerasus);Coreopsis lanceolata;6
+B006;cherry (Prunus cerasus);Echinacea purpureum;6
+B006;cherry (Prunus cerasus);Elymus canadensis;6
+B006;cherry (Prunus cerasus);Eryngium yuccifolium;6
+B006;cherry (Prunus cerasus);Euthamia graminifolia;6
+B006;cherry (Prunus cerasus);Monarda fistulosa;6
+B006;cherry (Prunus cerasus);Monarda punctata;6
+B006;cherry (Prunus cerasus);Oenothera biennis;6
+B006;cherry (Prunus cerasus);Penstemon digitalis;6
+B006;cherry (Prunus cerasus);Penstemon hirsutus;6
+B006;cherry (Prunus cerasus);Pycnanthemum virginianum;6
+B006;cherry (Prunus cerasus);Ratibida pinnata;6
+B006;cherry (Prunus cerasus);Rudbeckia hirta;6
+B006;cherry (Prunus cerasus);Rudbeckia triloba;6
+B006;cherry (Prunus cerasus);Schizachyrium scoparium;6
+B006;cherry (Prunus cerasus);Scrophularia marilandica;6
+B006;cherry (Prunus cerasus);Solidago nemoralis;6
+B006;cherry (Prunus cerasus);Solidago rigida;6
+B006;cherry (Prunus cerasus);Solidago speciosa;6
+B006;cherry (Prunus cerasus);Sorghastrum nutans;6
+B006;cherry (Prunus cerasus);Symphyotrichum laeve;6
+B006;cherry (Prunus cerasus);Symphyotrichum novae-angliae;6
+B006;cherry (Prunus cerasus);Symphyotrichum urophyllum;6
+B006;cherry (Prunus cerasus);Tradescantia ohiensis;6
+B006;cherry (Prunus cerasus);Verbena stricta;6
+B006;cherry (Prunus cerasus);Zizia aurea;6
+B006;watermelon (Citrullus lanatus);Clarkia williamsonii;8
+B006;watermelon (Citrullus lanatus);Eschscholtzia californica;8
+B006;watermelon (Citrullus lanatus);Grindelia camporum;8
+B006;watermelon (Citrullus lanatus);Lupinus densiflorus;8
+B006;watermelon (Citrullus lanatus);Lupinus succulentus;8
+B006;watermelon (Citrullus lanatus);Phacelia californica;8
+B006;watermelon (Citrullus lanatus);Phacelia ciliata;8
+B006;watermelon (Citrullus lanatus);Phacelia tanacetifolia;8
+B006;watermelon (Citrullus lanatus);Trichostema lanceolatum;8
+B006;watermelon (Citrullus lanatus);Trifolium fulcatum;8
+B006;watermelon (Citrullus lanatus);Monardella villosa;8
+B007;courgette (Cucurbita pepo);Angelica sylvestris;9
+B007;courgette (Cucurbita pepo);Crepis vesicaria;9
+B007;courgette (Cucurbita pepo);Digitalis purpurea;9
+B007;courgette (Cucurbita pepo);Geranium dissectum;9
+B007;courgette (Cucurbita pepo);Geranium robertianum;9
+B007;courgette (Cucurbita pepo);Sonchus asper;9
+B007;courgette (Cucurbita pepo);Stachys sylvatica;9
+B007;courgette (Cucurbita pepo);Trifolium repens;9
+B007;courgette (Cucurbita pepo);Viccia cracca;9
+B008;avocado (Persea americana);Sphaeralcea obtusiloba (Hook.) G. Don;10
+B008;avocado (Persea americana);Baccharis linearis (Ruiz & Pav.) Pers.;10
+B008;avocado (Persea americana);Flourensia thurifera (Molina) DC.;10
+B008;avocado (Persea americana);Lycium chilense Miers ex Bertero;10
+B008;avocado (Persea americana);Eryngium paniculatum Cav. & Dombey ex F. Delaroche;10
+B008;avocado (Persea americana);Encelia canescens Lam.;10
+B008;avocado (Persea americana);Erigeron luxurians (Skottsb.) Solbrig;10
+B008;avocado (Persea americana);Lepechinia salviae (Lindl.) Epling;10
+B009;blueberry (Vaccinium corymbosum);Achillea millefolium;11
+B009;blueberry (Vaccinium corymbosum);Andropogon gerardii;11
+B009;blueberry (Vaccinium corymbosum);Anemone canadensis;11
+B009;blueberry (Vaccinium corymbosum);Baptisia alba;11
+B009;blueberry (Vaccinium corymbosum);Coreopsis lanceolata;11
+B009;blueberry (Vaccinium corymbosum);Echinacea purpureum;11
+B009;blueberry (Vaccinium corymbosum);Elymus canadensis;11
+B009;blueberry (Vaccinium corymbosum);Eryngium yuccifolium;11
+B009;blueberry (Vaccinium corymbosum);Euthamia graminifolia;11
+B009;blueberry (Vaccinium corymbosum);Monarda fistulosa;11
+B009;blueberry (Vaccinium corymbosum);Monarda punctata ;11
+B009;blueberry (Vaccinium corymbosum);Oenothera biennis;11
+B009;blueberry (Vaccinium corymbosum);Penstemon digitalis;11
+B009;blueberry (Vaccinium corymbosum);Penstemon hirsutus;11
+B009;blueberry (Vaccinium corymbosum);Pycnanthemum virginianum;11
+B009;blueberry (Vaccinium corymbosum);Ratibida pinnata;11
+B009;blueberry (Vaccinium corymbosum);Rudbeckia hirta;11
+B009;blueberry (Vaccinium corymbosum);Rudbeckia triloba;11
+B009;blueberry (Vaccinium corymbosum);Schizachyrium scoparium;11
+B009;blueberry (Vaccinium corymbosum);Scrophularia marilandica;11
+B009;blueberry (Vaccinium corymbosum);Solidago nemoralis;11
+B009;blueberry (Vaccinium corymbosum);Forb Solidago rigida;11
+B009;blueberry (Vaccinium corymbosum);Solidago speciosa;11
+B009;blueberry (Vaccinium corymbosum);Sorghastrum nutans;11
+B009;blueberry (Vaccinium corymbosum);Symphyotrichum laeve;11
+B009;blueberry (Vaccinium corymbosum);Symphyotrichum novae-angliae;11
+B009;blueberry (Vaccinium corymbosum);Symphyotrichum urophyllum;11
+B009;blueberry (Vaccinium corymbosum);Tradescantia ohiensis;11
+B009;blueberry (Vaccinium corymbosum);Verbena stricta;11
+B009;blueberry (Vaccinium corymbosum);Zizia aurea;11
+B009;cherry (Prunus cerasus);Achillea millefolium;11
+B009;cherry (Prunus cerasus);Andropogon gerardii;11
+B009;cherry (Prunus cerasus);Anemone canadensis;11
+B009;cherry (Prunus cerasus);Baptisia alba;11
+B009;cherry (Prunus cerasus);Coreopsis lanceolata;11
+B009;cherry (Prunus cerasus);Echinacea purpureum;11
+B009;cherry (Prunus cerasus);Elymus canadensis;11
+B009;cherry (Prunus cerasus);Eryngium yuccifolium;11
+B009;cherry (Prunus cerasus);Euthamia graminifolia;11
+B009;cherry (Prunus cerasus);Monarda fistulosa;11
+B009;cherry (Prunus cerasus);Monarda punctata ;11
+B009;cherry (Prunus cerasus);Oenothera biennis;11
+B009;cherry (Prunus cerasus);Penstemon digitalis;11
+B009;cherry (Prunus cerasus);Penstemon hirsutus;11
+B009;cherry (Prunus cerasus);Pycnanthemum virginianum;11
+B009;cherry (Prunus cerasus);Ratibida pinnata;11
+B009;cherry (Prunus cerasus);Rudbeckia hirta;11
+B009;cherry (Prunus cerasus);Rudbeckia triloba;11
+B009;cherry (Prunus cerasus);Schizachyrium scoparium;11
+B009;cherry (Prunus cerasus);Scrophularia marilandica;11
+B009;cherry (Prunus cerasus);Solidago nemoralis;11
+B009;cherry (Prunus cerasus);Forb Solidago rigida;11
+B009;cherry (Prunus cerasus);Solidago speciosa;11
+B009;cherry (Prunus cerasus);Sorghastrum nutans;11
+B009;cherry (Prunus cerasus);Symphyotrichum laeve;11
+B009;cherry (Prunus cerasus);Symphyotrichum novae-angliae;11
+B009;cherry (Prunus cerasus);Symphyotrichum urophyllum;11
+B009;cherry (Prunus cerasus);Tradescantia ohiensis;11
+B009;cherry (Prunus cerasus);Verbena stricta;11
+B009;cherry (Prunus cerasus);Zizia aurea;11
+B010;red clover (Trifolium pratense);Phacelia tanacetifolia;12
+B011;sunflower (Helianthus annuus);Ammi visnaga;13
+B011;sunflower (Helianthus annuus);Asclepia fascicularis;13
+B011;sunflower (Helianthus annuus);Atriplex triangularis;13
+B011;sunflower (Helianthus annuus);Brassica sp.;13
+B011;sunflower (Helianthus annuus);Centaurea solstitialis;13
+B011;sunflower (Helianthus annuus);Convolvulus arvensis;13
+B011;sunflower (Helianthus annuus);Daucus carota;13
+B011;sunflower (Helianthus annuus);Eriogonum fasciculatum;13
+B011;sunflower (Helianthus annuus);Foeniculum vulgare;13
+B011;sunflower (Helianthus annuus);Grindelia camporum;13
+B011;sunflower (Helianthus annuus);Heteromeles arbutifolia;13
+B011;sunflower (Helianthus annuus);Lactuca serriola;13
+B011;sunflower (Helianthus annuus);Lotus corniculatus;13
+B011;sunflower (Helianthus annuus);Picris echioides;13
+B011;sunflower (Helianthus annuus);Rosa californica;13
+B011;sunflower (Helianthus annuus);Sambucus mexicana;13
+B012;strawberry (Fragaria ananassa);Anchusa arvensis;14
+B012;strawberry (Fragaria ananassa);Anethum graveolens;14
+B012;strawberry (Fragaria ananassa);Anthemis tinctoria;14
+B012;strawberry (Fragaria ananassa);Camelina sativa;14
+B012;strawberry (Fragaria ananassa);Campanula patula;14
+B012;strawberry (Fragaria ananassa);Campanula rapunculoides;14
+B012;strawberry (Fragaria ananassa);Centaurea scabiosa;14
+B012;strawberry (Fragaria ananassa);Centaureus cyanus;14
+B012;strawberry (Fragaria ananassa);Cichorium intybus;14
+B012;strawberry (Fragaria ananassa);Crepis biennis;14
+B012;strawberry (Fragaria ananassa);Daucus carota;14
+B012;strawberry (Fragaria ananassa);Echium vulgare;14
+B012;strawberry (Fragaria ananassa);Hypochaeris radicata;14
+B012;strawberry (Fragaria ananassa);Leontodon hispidus;14
+B012;strawberry (Fragaria ananassa);Linum usitatissimum;14
+B012;strawberry (Fragaria ananassa);Lotus corniculatus;14
+B012;strawberry (Fragaria ananassa);Melilotus albus;14
+B012;strawberry (Fragaria ananassa);Onobrychis viciifolia;14
+B012;strawberry (Fragaria ananassa);Papaver rhoeas;14
+B012;strawberry (Fragaria ananassa);Phacelia tanacetifolia;14
+B012;strawberry (Fragaria ananassa);Picris hieracioides;14
+B012;strawberry (Fragaria ananassa);Reseda lutea;14
+B012;strawberry (Fragaria ananassa);Sinapis arvensis;14
+B012;strawberry (Fragaria ananassa);Stachys annua;14
+B012;strawberry (Fragaria ananassa);Trifolium hybridum;14
+B012;strawberry (Fragaria ananassa);Trifolium incarnatum;14
+B012;strawberry (Fragaria ananassa);Trifolium pratense;14
+B012;strawberry (Fragaria ananassa);Fagopyrum esculentum;14
+B012;strawberry (Fragaria ananassa);Lamium purpureum;14
+B012;strawberry (Fragaria ananassa);Vicia sativa;14
+B013;field mustard (Brassica rapa);Eriogonum fasciculatum foliolosum;15
+B013;field mustard (Brassica rapa);Ceanothus griseus;15
+B013;field mustard (Brassica rapa);Rhamnus californica tomentella;15
+B013;field mustard (Brassica rapa);Baccharis pilularis;15
+B013;field mustard (Brassica rapa);Sambucus nigra;15
+B013;field mustard (Brassica rapa);Heteromeles arbutifolia;15
+B014;blueberry (Vaccinium corymbosum);NA;NA
+B015;blueberry (Vaccinium corymbosum);Zizia aurea;16
+B015;blueberry (Vaccinium corymbosum);Penstemon digitalis;16
+B015;blueberry (Vaccinium corymbosum);Coreopsis lanceolata;16
+B015;blueberry (Vaccinium corymbosum);Rudbeckia hirta;16
+B015;blueberry (Vaccinium corymbosum);Asclepias incarnata;16
+B015;blueberry (Vaccinium corymbosum);Asclepias tuberosa;16
+B015;blueberry (Vaccinium corymbosum);Monarda fistulosa;16
+B015;blueberry (Vaccinium corymbosum);Eupatorium maculatum;16
+B015;blueberry (Vaccinium corymbosum);Eupatorium perfoliatum;16
+B015;blueberry (Vaccinium corymbosum);Lobelia siphilitica;16
+B015;blueberry (Vaccinium corymbosum);Ratibida pinnata;16
+B015;blueberry (Vaccinium corymbosum);Silphium perfoliatum;16
+B015;blueberry (Vaccinium corymbosum);Solidago rigida;16
+B015;blueberry (Vaccinium corymbosum);Symphyotrichum novae-angliae;16
+B015;blueberry (Vaccinium corymbosum);Symphyotrichum laeve;16
+B015;blueberry (Vaccinium corymbosum);Elymus canadensis;16
+B015;blueberry (Vaccinium corymbosum);Sorghastrum nutans;16
+B015;blueberry (Vaccinium corymbosum);Andropogon gerardii;16
+B016;tomato (Solanum lycopersicum);Ceanothus spp.;17
+B016;tomato (Solanum lycopersicum);Rhamnus californica;17
+B016;tomato (Solanum lycopersicum);Eriogonum fasciculatum;17
+B016;tomato (Solanum lycopersicum);Heteromeles arbutifolia;17
+B016;tomato (Solanum lycopersicum);Sambucus mexicana;17
+B016;tomato (Solanum lycopersicum);Baccharis pilularis;17
+B017;strawberry (Fragaria ananassa);NA;NA
+B018;sunflower (Helianthus annuus);Borago officinalis;18
+B018;sunflower (Helianthus annuus);Calendula arvensis;18
+B018;sunflower (Helianthus annuus);Coriandrum sativum;18
+B018;sunflower (Helianthus annuus);Salvia pratensis;18
+B018;sunflower (Helianthus annuus);Melilotus officinalis;18
+B018;sunflower (Helianthus annuus);Diplotaxis erucoides;18
+B018;sunflower (Helianthus annuus);Echium plantagineum;18
+B018;sunflower (Helianthus annuus);Silene vulgaris;18
+B018;sunflower (Helianthus annuus);Vicia sativa;18
+B018;sunflower (Helianthus annuus);Nigella damascena;18
+B018;sunflower (Helianthus annuus);Sinapis alba;18
+B018;sunflower (Helianthus annuus);Medicago sativa;18
+B019;almond (Prunus dulcis);NA;NA
+B020;melon (Cucumis melo);Calendula officinalis L.;19
+B020;melon (Cucumis melo);Coriandrum sativum;19
+B020;melon (Cucumis melo);Nigella gallica L.;19
+B020;melon (Cucumis melo);Lobularia marítima L.;19
+B020;melon (Cucumis melo);Borago officinalis;19
+B020;melon (Cucumis melo);Diplotaxis virgata Cav.;19
+B020;melon (Cucumis melo);Diplotaxis catholica;19
+B020;melon (Cucumis melo);Medicago sativa;19
+B020;melon (Cucumis melo);Salvia verbenaca;19
+B020;melon (Cucumis melo);Silene vulgaris;19
+B020;melon (Cucumis melo);Vicia sativa;19
+B021;avocado (Persea americana);Eryngium paniculatum Cav. & Dombey ex F. Delaroche;20
+B021;avocado (Persea americana);Baccharis linearis (Ruiz & Pav.) Pers.;20
+B021;avocado (Persea americana);Encelia canescens Lam.;20
+B021;avocado (Persea americana);Erigeron luxurians (Skottsb.) Solbrig;20
+B021;avocado (Persea americana);Eupatorium salvium Colla;20
+B021;avocado (Persea americana);Flourensia thurifera (Molina) DC.;20
+B021;avocado (Persea americana);Haplopappus integerrimus (Hook. & Arn.) H.M. Hall;20
+B021;avocado (Persea americana);Senna cumingii (Hook. & Arn.) H.S. Irwin & Barneby;20
+B021;avocado (Persea americana);Lepechinia salviae (Lindl.) Epling;20
+B021;avocado (Persea americana);Sphaeralcea obtusiloba (Hook.) G. Don;20
+B021;avocado (Persea americana);Lycium chilense Miers ex Bertero;20
+B021;avocado (Persea americana);Alonsoa meridionalis;20
+B021;avocado (Persea americana);Baccharis romboidalis;20
+B021;avocado (Persea americana);Eryngium paniculatum;20
+B021;avocado (Persea americana);Haploapappus macrocephalus;20
+B022;avocado (Persea americana);Helianthus annuus;21
+B022;avocado (Persea americana);Coriandrum sativum;21
+B022;avocado (Persea americana);Medicago sativa;21
+B023;oilseed rape (Brassica napus);Alliaria petolata;22
+B023;oilseed rape (Brassica napus);Anthriscus sylvestris;22
+B023;oilseed rape (Brassica napus);Brassica napus;22
+B023;oilseed rape (Brassica napus);Capsellabursa pastoris;22
+B023;oilseed rape (Brassica napus);Cardamine pratensis;22
+B023;oilseed rape (Brassica napus);Cerastium arvense;22
+B023;oilseed rape (Brassica napus);Cerastium fontanum;22
+B023;oilseed rape (Brassica napus);Crataegus monogyna;22
+B023;oilseed rape (Brassica napus);Euphorbia helioscopa;22
+B023;oilseed rape (Brassica napus);Fumaria muralis;22
+B023;oilseed rape (Brassica napus);Fumaria officinalis;22
+B023;oilseed rape (Brassica napus);Fumaria sp.;22
+B023;oilseed rape (Brassica napus);Geranium robertianum;22
+B023;oilseed rape (Brassica napus);Labium hybridum;22
+B023;oilseed rape (Brassica napus);Matricaria discoidea;22
+B023;oilseed rape (Brassica napus);Medicago lupulina;22
+B023;oilseed rape (Brassica napus);Papaver sp.;22
+B023;oilseed rape (Brassica napus);Poa annua;22
+B023;oilseed rape (Brassica napus);Senecio vulgaris;22
+B023;oilseed rape (Brassica napus);Sinapis arvensis;22
+B023;oilseed rape (Brassica napus);Sisymbrium officinale;22
+B023;oilseed rape (Brassica napus);Sonchus oleraceus;22
+B023;oilseed rape (Brassica napus);Taraxacum officinale;22
+B023;oilseed rape (Brassica napus);Ulex europaeus;22
+B023;oilseed rape (Brassica napus);Veronica persica;22
+B023;oilseed rape (Brassica napus);Vicia sepium;22
+B023;oilseed rape (Brassica napus);Viola tricolor;22
+B023;apple (Malus domestica);Anthriscus sylvestris;23
+B023;apple (Malus domestica);Arum maculatum;23
+B023;apple (Malus domestica);Bellis perennis;23
+B023;apple (Malus domestica);Cardamine pratensis;23
+B023;apple (Malus domestica);Cerastium fontanum;23
+B023;apple (Malus domestica);Crataegus monogyna;23
+B023;apple (Malus domestica);Ficaria verna;23
+B023;apple (Malus domestica);Hyacinthoides hispanica;23
+B023;apple (Malus domestica);Hyacinthoides sp.;23
+B023;apple (Malus domestica);Malus pumila;23
+B023;apple (Malus domestica);Malus sp.;23
+B023;apple (Malus domestica);Myosotis scorpioides;23
+B023;apple (Malus domestica);Ranunculus repens;23
+B023;apple (Malus domestica);Sambucus nigra;23
+B023;apple (Malus domestica);Smyrnium olosatrum;23
+B023;apple (Malus domestica);Taraxacum officinale;23
+B023;apple (Malus domestica);Viburnum davidii;23
+B023;apple (Malus domestica);Viburnum opulus;23
+B023;apple (Malus domestica);Vicia sativa;23
+B023;apple (Malus domestica);Vicia sepium;23
+B023;oilseed rape (Brassica napus);Alliaria petolata;22
+B023;oilseed rape (Brassica napus);Anthriscus sylvestris;22
+B023;oilseed rape (Brassica napus);Brassica napus;22
+B023;oilseed rape (Brassica napus);Capsellabursa pastoris;22
+B023;oilseed rape (Brassica napus);Cardamine pratensis;22
+B023;oilseed rape (Brassica napus);Cerastium arvense;22
+B023;oilseed rape (Brassica napus);Cerastium fontanum;22
+B023;oilseed rape (Brassica napus);Crataegus monogyna;22
+B023;oilseed rape (Brassica napus);Euphorbia helioscopa;22
+B023;oilseed rape (Brassica napus);Fumaria muralis;22
+B023;oilseed rape (Brassica napus);Fumaria officinalis;22
+B023;oilseed rape (Brassica napus);Fumaria sp.;22
+B023;oilseed rape (Brassica napus);Geranium robertianum;22
+B023;oilseed rape (Brassica napus);Labium hybridum;22
+B023;oilseed rape (Brassica napus);Matricaria discoidea;22
+B023;oilseed rape (Brassica napus);Medicago lupulina;22
+B023;oilseed rape (Brassica napus);Medicago lupulina;22
+B023;oilseed rape (Brassica napus);Poa annua;22
+B023;oilseed rape (Brassica napus);Senecio vulgaris;22
+B023;oilseed rape (Brassica napus);Sinapis arvensis;22
+B023;oilseed rape (Brassica napus);Sisymbrium officinale;22
+B023;oilseed rape (Brassica napus);Sonchus oleraceus;22
+B023;oilseed rape (Brassica napus);Taraxacum officinale;22
+B023;oilseed rape (Brassica napus);Ulex europaeus;22
+B023;oilseed rape (Brassica napus);Veronica persica;22
+B023;oilseed rape (Brassica napus);Vicia sepium;22
+B023;oilseed rape (Brassica napus);Viola tricolor;22
+B024;blueberry (Vaccinium corymbosum);Penstemon hirsutus;24
+B024;blueberry (Vaccinium corymbosum);Potentilla fruticosa;24
+B024;blueberry (Vaccinium corymbosum);Monarda fistulosa;24
+B024;blueberry (Vaccinium corymbosum);Veronicastrum virginicum;24
+B024;blueberry (Vaccinium corymbosum);Solidago juncea;24
+B024;blueberry (Vaccinium corymbosum);Lobelia siphilitica;24
+B024;blueberry (Vaccinium corymbosum);Silphium terebinthinaceum;24
+B024;blueberry (Vaccinium corymbosum);Agastache nepetoides;24
+B024;blueberry (Vaccinium corymbosum);Aster laevis;24
+B024;blueberry (Vaccinium corymbosum);Schizachyrium scoparium;24
+B025;mango (Mangifera indica);Coccinia grandis (L.) Voigt;25
+B025;mango (Mangifera indica);Tridax procumbens;25
+B025;mango (Mangifera indica);Ruellia tuberosa Linn.;25
+B025;mango (Mangifera indica);Euphorbia heterophylla L.;25
+B025;mango (Mangifera indica);Cleome rutidosperma;25
+B026;apple (Malus domestica);Achillea millefolium;26
+B026;apple (Malus domestica);Allium fistulosum;26
+B026;apple (Malus domestica);Anthemis tinctoria;26
+B026;apple (Malus domestica);Borago officinalis;26
+B026;apple (Malus domestica);Calendula officinalis;26
+B026;apple (Malus domestica);Camelina sativa;26
+B026;apple (Malus domestica);Campanula rapunculoides;26
+B026;apple (Malus domestica);Carduus nutans;26
+B026;apple (Malus domestica);Centaurea cyanus;26
+B026;apple (Malus domestica);Centaurea jacea;26
+B026;apple (Malus domestica);Cichorium intybus;26
+B026;apple (Malus domestica);Coriandrum sativum;26
+B026;apple (Malus domestica);Daucus carota;26
+B026;apple (Malus domestica);Echium vulgare;26
+B026;apple (Malus domestica);Fagopyrum esculentum;26
+B026;apple (Malus domestica);"Helianthus annuus ""Pollensorte""";26
+B026;apple (Malus domestica);Hypericum perforatum;26
+B026;apple (Malus domestica);Isatis tinctoria;26
+B026;apple (Malus domestica);Knautia arvensis;26
+B026;apple (Malus domestica);Leucanthemum ircutianum/vulgare;26
+B026;apple (Malus domestica);Linum grandiflorum;26
+B026;apple (Malus domestica);Linum usitatissimum;26
+B026;apple (Malus domestica);Lotus corniculatus;26
+B026;apple (Malus domestica);Malva moschata;26
+B026;apple (Malus domestica);Malva sylvestris;26
+B026;apple (Malus domestica);Medicago lupulina;26
+B026;apple (Malus domestica);Medicago sativa;26
+B026;apple (Malus domestica);Melilotus albus;26
+B026;apple (Malus domestica);Melilotus officinalis;26
+B026;apple (Malus domestica);Onobrychis viciifolia;26
+B026;apple (Malus domestica);Origanum vulgare;26
+B026;apple (Malus domestica);Papaver rhoeas;26
+B026;apple (Malus domestica);Pastinaca sativa;26
+B026;apple (Malus domestica);Phacelia tanacetifolia;26
+B026;apple (Malus domestica);Plantago lanceolata;26
+B026;apple (Malus domestica);Reseda lutea;26
+B026;apple (Malus domestica);Reseda luteola;26
+B026;apple (Malus domestica);Salvia pratensis;26
+B026;apple (Malus domestica);Sanguisorba minor;26
+B026;apple (Malus domestica);Silene dioica;26
+B026;apple (Malus domestica);Silene latifolia ssp. alba;26
+B026;apple (Malus domestica);Silene vulgaris;26
+B026;apple (Malus domestica);Sinapis alba;26
+B026;apple (Malus domestica);Sinapis arvensis;26
+B026;apple (Malus domestica);Solidago virgaurea;26
+B026;apple (Malus domestica);Tanacetum vulgare;26
+B026;apple (Malus domestica);Trifolium incarnatum;26
+B026;apple (Malus domestica);Verbascum densiflorum;26
+B026;apple (Malus domestica);Verbascum nigrum;26
+B026;apple (Malus domestica);Vicia sativa;26
+B027;oilseed rape (Brassica napus);Fagopyrum esculentum;27
+B027;oilseed rape (Brassica napus);Onobrychis viciifolia;27
+B027;oilseed rape (Brassica napus);Thinopyrum intermedium;27
+B027;oilseed rape (Brassica napus);Helianthus annuus;27
+B027;oilseed rape (Brassica napus);Phacelia tanacetifolia;27
+B027;oilseed rape (Brassica napus);Trifolium  incarnatum;27
+B027;oilseed rape (Brassica napus);Dalea candida;27
+B027;oilseed rape (Brassica napus);Dalea purpurea;27
+B027;oilseed rape (Brassica napus);Nassella viridula;27
+B027;oilseed rape (Brassica napus);Schizachyrium scoparium;27
+B027;oilseed rape (Brassica napus);Medicago sativa;27
+B027;oilseed rape (Brassica napus);Cichorium intybus;27
+B027;oilseed rape (Brassica napus);Bouteloua gracilis;27
+B027;oilseed rape (Brassica napus);Trifolium resupinatum;27
+B027;oilseed rape (Brassica napus);Trifolium pratense;27
+B027;oilseed rape (Brassica napus);Trifolium hybridum;27
+B027;oilseed rape (Brassica napus);Helianthus pauciflorus;27
+B027;oilseed rape (Brassica napus);Zizia aptera;27
+B027;oilseed rape (Brassica napus);Solidago nemoralis;27
+B028;apple (Malus domestica);Sinapis alba;28
+B028;apple (Malus domestica);Phacelia sp;28
+B028;apple (Malus domestica);Vicia faba;28
+B029;buckwheat (Fagopyrum esculentum);Barnardia japonica;29
+B029;buckwheat (Fagopyrum esculentum);Artemisia japonica;29
+B029;buckwheat (Fagopyrum esculentum);Aster microcephalus var. ovatus;29
+B029;buckwheat (Fagopyrum esculentum);Cirsium japonicum;29
+B029;buckwheat (Fagopyrum esculentum);Coreopsis lanceolata;29
+B029;buckwheat (Fagopyrum esculentum);Erigeron annuus;29
+B029;buckwheat (Fagopyrum esculentum);Erigeron philadelphicus;29
+B029;buckwheat (Fagopyrum esculentum);Galinsoga quadriradiata;29
+B029;buckwheat (Fagopyrum esculentum);Hypochaeris radicata;29
+B029;buckwheat (Fagopyrum esculentum);Ixeris dentata;29
+B029;buckwheat (Fagopyrum esculentum);Ixeris stolonifera var. stolonifera;29
+B029;buckwheat (Fagopyrum esculentum);Picris hieracioides subsp. japonica;29
+B029;buckwheat (Fagopyrum esculentum);Pseudognaphalium affine;29
+B029;buckwheat (Fagopyrum esculentum);Senecio vulgaris;29
+B029;buckwheat (Fagopyrum esculentum);Sonchus oleraceus;29
+B029;buckwheat (Fagopyrum esculentum);Taraxacum offinicale;29
+B029;buckwheat (Fagopyrum esculentum);Adenophora triphylla var. japonica;29
+B029;buckwheat (Fagopyrum esculentum);Dianthus superbus var. longicalycinus;29
+B029;buckwheat (Fagopyrum esculentum);Silene armeria;29
+B029;buckwheat (Fagopyrum esculentum);Commelina communis;29
+B029;buckwheat (Fagopyrum esculentum);Ipomoea hederifolia;29
+B029;buckwheat (Fagopyrum esculentum);Lagenaria siceraria var. hispida;29
+B029;buckwheat (Fagopyrum esculentum);Indigofera pseudotinctoria;29
+B029;buckwheat (Fagopyrum esculentum);Trifolium pratense;29
+B029;buckwheat (Fagopyrum esculentum);Trifolium repens;29
+B029;buckwheat (Fagopyrum esculentum);Vicia unijuga;29
+B029;buckwheat (Fagopyrum esculentum);Geranium thunbergii;29
+B029;buckwheat (Fagopyrum esculentum);Lamium amplexicaule;29
+B029;buckwheat (Fagopyrum esculentum);Salvia japonica;29
+B029;buckwheat (Fagopyrum esculentum);Oenothera biennis;29
+B029;buckwheat (Fagopyrum esculentum);Oxalis corniculata;29
+B029;buckwheat (Fagopyrum esculentum);Plantago lanceolata;29
+B029;buckwheat (Fagopyrum esculentum);Veronica persica;29
+B029;buckwheat (Fagopyrum esculentum);Sanguisorba officinalis;29
+B029;buckwheat (Fagopyrum esculentum);Boehmeria silvestrii;29
+B029;buckwheat (Fagopyrum esculentum);Patrinia scabiosifolia;29
+B029;buckwheat (Fagopyrum esculentum);Viola.sp1;29
+B029;buckwheat (Fagopyrum esculentum);Viola.sp2;29
+B030;cucumber (Cucumis sativus);Aster novae-angliae ;30
+B030;cucumber (Cucumis sativus);Agastache foeniculum ;30
+B030;cucumber (Cucumis sativus);Achillea millefolium ;30
+B030;cucumber (Cucumis sativus);Lupinus perennis ;30
+B030;cucumber (Cucumis sativus);Monarda fistulosa ;30
+B030;cucumber (Cucumis sativus);Solidago graminifolia ;30
+B030;cucumber (Cucumis sativus);Zizia aurea ;30
+B030;cucumber (Cucumis sativus);Grass species: Bouteloua curtipendula and Koeleria cristata (macrantha) ;30
+B030;cucumber (Cucumis sativus);Chamaecrista fasciculata ;30
+B030;cucumber (Cucumis sativus);Coreopsis lanceolata ;30
+B030;cucumber (Cucumis sativus);Phacelia tanacetifolia ;30
+B030;cucumber (Cucumis sativus);Rudbeckia hirta;30
+B030;cucumber (Cucumis sativus);Gaillardia pulchella;30
+B030;cucumber (Cucumis sativus);Trifolium incarnatum;30
+B031;sunflower (Helianthus annuus);Rosa californica;31
+B031;sunflower (Helianthus annuus);Ceanothus lemmonii;31
+B031;sunflower (Helianthus annuus);Sambucus mexicana;31
+B032;oilseed rape (Brassica napus);Crataegus monogyna Jacq.;32
+B032;oilseed rape (Brassica napus);Prunus spinose L.;32
+B033;strawberry (Fragaria ananassa);Zizia aurea;33
+B033;strawberry (Fragaria ananassa);Penstemon digitalis;33
+B033;strawberry (Fragaria ananassa);Coreopsis lanceolata;33
+B033;strawberry (Fragaria ananassa);Potentilla fruticosa;33
+B033;strawberry (Fragaria ananassa);Veronicastrum virginicum;33
+B033;strawberry (Fragaria ananassa);Agastache nepetoides;33
+B033;strawberry (Fragaria ananassa);Silphium perfoliatum;33
+B033;strawberry (Fragaria ananassa);Lobelia siphilitica;33
+B033;strawberry (Fragaria ananassa);Solidago canadensis;33
+B034;apple (Malus domestica);Achillea millefolium;34
+B034;apple (Malus domestica);Allium fistulosum;34
+B034;apple (Malus domestica);Anthemis tinctoria;34
+B034;apple (Malus domestica);Borago officinalis;34
+B034;apple (Malus domestica);Calendula officinalis;34
+B034;apple (Malus domestica);Camelina sativa;34
+B034;apple (Malus domestica);Campanula rapunculoides;34
+B034;apple (Malus domestica);Carduus nutans;34
+B034;apple (Malus domestica);Centaurea cyanus;34
+B034;apple (Malus domestica);Centaurea jacea;34
+B034;apple (Malus domestica);Cichorium intybus;34
+B034;apple (Malus domestica);Coriandrum sativum;34
+B034;apple (Malus domestica);Daucus carota;34
+B034;apple (Malus domestica);Echium vulgare;34
+B034;apple (Malus domestica);Fagopyrum esculentum;34
+B034;apple (Malus domestica);"Helianthus annuus ""Pollensorte""";34
+B034;apple (Malus domestica);Hypericum perforatum;34
+B034;apple (Malus domestica);Isatis tinctoria;34
+B034;apple (Malus domestica);Knautia arvensis;34
+B034;apple (Malus domestica);Leucanthemum ircutianum/vulgare;34
+B034;apple (Malus domestica);Linum grandiflorum;34
+B034;apple (Malus domestica);Linum usitatissimum;34
+B034;apple (Malus domestica);Lotus corniculatus;34
+B034;apple (Malus domestica);Malva moschata;34
+B034;apple (Malus domestica);Malva sylvestris;34
+B034;apple (Malus domestica);Medicago lupulina;34
+B034;apple (Malus domestica);Medicago sativa;34
+B034;apple (Malus domestica);Melilotus albus;34
+B034;apple (Malus domestica);Melilotus officinalis;34
+B034;apple (Malus domestica);Onobrychis viciifolia;34
+B034;apple (Malus domestica);Origanum vulgare;34
+B034;apple (Malus domestica);Papaver rhoeas;34
+B034;apple (Malus domestica);Pastinaca sativa;34
+B034;apple (Malus domestica);Phacelia tanacetifolia;34
+B034;apple (Malus domestica);Plantago lanceolata;34
+B034;apple (Malus domestica);Reseda lutea;34
+B034;apple (Malus domestica);Reseda luteola;34
+B034;apple (Malus domestica);Salvia pratensis;34
+B034;apple (Malus domestica);Sanguisorba minor;34
+B034;apple (Malus domestica);Silene dioica;34
+B034;apple (Malus domestica);Silene latifolia ssp. alba;34
+B034;apple (Malus domestica);Silene vulgaris;34
+B034;apple (Malus domestica);Sinapis alba;34
+B034;apple (Malus domestica);Sinapis arvensis;34
+B034;apple (Malus domestica);Solidago virgaurea;34
+B034;apple (Malus domestica);Tanacetum vulgare;34
+B034;apple (Malus domestica);Trifolium incarnatum;34
+B034;apple (Malus domestica);Verbascum densiflorum;34
+B034;apple (Malus domestica);Verbascum nigrum;34
+B034;apple (Malus domestica);Vicia sativa;34
