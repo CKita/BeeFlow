@@ -14,8 +14,7 @@ E-mail: [c.akemikita\@gmail.com](mailto:c.akemikita@gmail.com){.email}.
 
 Originally published on November 12th, 2024.
 
-[![DOI](https://sandbox.zenodo.org/badge/DOI/10.5072/zenodo.470381.svg)](https://handle.test.datacite.org/10.5072/zenodo.470381)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19006637.svg)](https://doi.org/10.5281/zenodo.19006637)
 
 Run in 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble".
 
