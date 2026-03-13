@@ -2,7 +2,7 @@
 
 Supplement to the manuscript:
 
-*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. An ecological synthesis about the effects of floral plantings on crop pollination by bees. Submitted. (Check out the [preprint](https://doi.org/10.1101/2025.09.01.673359))*
+*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR.* From conservation to crop pollination: an ecological synthesis of floral planting effects on bee activity within crops*.* Biological Conservation*, in press. (Check out also the [preprint](https://doi.org/10.1101/2025.09.01.673359))*
 
 This manuscript is part of the Ph.D. thesis of CA Kita, enrolled in the Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
@@ -14,7 +14,7 @@ E-mail: [c.akemikita\@gmail.com](mailto:c.akemikita@gmail.com){.email}.
 
 Originally published on November 12th, 2024.
 
-Run in R version 4.5.1 (2025-06-13) -- "Great Square Root".
+Run in 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble".
 
 ## Disclaimer
 
@@ -159,10 +159,10 @@ Processed data used in our quantitative and qualitative analyses (XLSX format).
 
 If you have any questions, corrections, or suggestions, please feel free to open an [issue](https://github.com/CKita/BeeFlow/issues) or make a [pull request](https://github.com/CKita/BeeFlow/pulls).
 
-## Acknowledgments <!--# Confira se estas duas últimas seções estão iguais às do artigo -->
+## Acknowledgments
 
-We are deeply grateful to the authors of all primary studies included in our systematic review, whose empirical work made our synthesis possible. Special thanks go to Astrid Kleinert and [Renata Muylaert](https://renatamuy.github.io) for their invaluable insight and advice, which helped us see the bigger picture and put CAK’s Ph.D. project in perspective. Last but not least, we thank the Stack Overflow community (<https://stackoverflow.com/>), where we solve most of our coding dilemmas.
+We are deeply grateful to the authors of all primary studies included in our systematic review, whose empirical work made our synthesis possible. Special thanks go to Astrid Kleinert and Renata Muylaert for their invaluable insight and advice, which helped us see the bigger picture and put CAK’'s Ph.D. project in perspective. We also thank Tereza Giannini, Paula Prist, and Silvana Buzato for their insightful suggestions during CAK’s Qualifying Exam.
 
 ## Funding
 
-CAK thanks the Coordination for the Improvement of Higher Education Personnel (CAPES, 8888.802356/2023-00), Graduate School in Ecology of the University of São Paulo (PPGE/IB-USP), and São Paulo Research Foundation (FAPESP, 2023/17728-9) for the Ph.D. scholarships. MARM was supported by grants, fellowships, and scholarships given to him and his team by the Alexander von Humboldt Foundation (AvH, 1134644), São Paulo Research Foundation (FAPESP, 2023/03083-6, 2023/02881-6, and 2023/17728-9), and Consulate General of France in São Paulo.
+CAK thanks the Coordination for the Improvement of Higher Education Personnel (CAPES, 8888.802356/2023-00), Graduate School in Ecology of the University of São Paulo (PPGE/IB-USP), and São Paulo Research Foundation (FAPESP, 2023/17728-9) for the Ph.D. scholarships. IAS reports financial support was provided by National Council for Scientific and Technological Development. MARM was supported by grants, fellowships, and scholarships given to him and his team by the Alexander von Humboldt Foundation (AvH, 1134644), São Paulo Research Foundation (FAPESP, 2023/03083-6, 2023/02881-6, and 2023/17728-9), National Council for Scientific and Technological Development (CNPq, 305204/2024-6), and Consulate General of France in São Paulo.
