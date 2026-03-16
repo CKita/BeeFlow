@@ -2,7 +2,7 @@
 
 Supplement to the manuscript:
 
-*Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR.* From conservation to crop pollination: an ecological synthesis of floral planting effects on bee activity within crops*.* Biological Conservation*, in press. (Check out also the [preprint](https://doi.org/10.1101/2025.09.01.673359))*
+Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. From conservation to crop pollination: an ecological synthesis of floral planting effects on bee activity within crops. Biological Conservation, in press. (Check out also the [preprint](https://doi.org/10.1101/2025.09.01.673359))
 
 This manuscript is part of the Ph.D. thesis of CA Kita, enrolled in the Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
