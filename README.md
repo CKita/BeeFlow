@@ -2,7 +2,7 @@
 
 Supplement to the manuscript:
 
-Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. From conservation to crop pollination: an ecological synthesis of floral planting effects on bee activity within crops. Biological Conservation, in press. (Check out also the [preprint](https://doi.org/10.1101/2025.09.01.673359))
+Kita CA, Alves-dos-Santos I, Hrncir M, Mello MAR. From conservation to crop pollination: an ecological synthesis of floral planting effects on bee activity within crops. Biological Conservation, 317, 111807. https://doi.org/10.1016/j.biocon.2026.111807
 
 This manuscript is part of the Ph.D. thesis of CA Kita, enrolled in the Graduate School in Ecology, Institute of Biosciences, University of São Paulo, Brazil.
 
@@ -104,14 +104,17 @@ The data and scripts provided here aim at making our study reproducible. You wil
 1.  Data (folder)
 
     a.  floral planting and effect.csv -\> data frame with floral planting composition assessed in the selected studies.
+    b.  floral planting and crops.csv -\> data frame with floral planting composition per crop type assessed in the selected studies.
 
-2.  Figure (folder)
+3.  Figure (folder)
 
     a.  floral planting and effect.png -\> floral planting composition dissimilarity per floral planting effect assessed.
+    b.  floral planting and crops.png -\> floral planting composition dissimilarity within and between crops.
 
-3.  Code (folder)
+5.  Code (folder)
 
     a.  floral planting and effect.R -\> commented script to help reproduce the figure `floral planting and effect.png`.
+    b.  floral planting and crops.R -\> commented script to help reproduce the figure `floral planting and crops.png`.
 
 ### **Litsearch (folder)**
 
