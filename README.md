@@ -30,7 +30,7 @@ While every effort has been made to ensure that the materials provided are accur
 
 ### Usage and modifications
 
-The contents are shared under a XXX License <!--# Temos que escolher a licença no final -->. Users are free to use, modify, and distribute the code, data, and information in accordance with this license. The authors bear no responsibility for outcomes arising from the use or misuse of these materials.
+The contents are shared under a Creative Commons License. Users are free to use, modify, and distribute the code, data, and information in accordance with this license. The authors bear no responsibility for outcomes arising from the use or misuse of these materials.
 
 ### Support and maintenance
 
